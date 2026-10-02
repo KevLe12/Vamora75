@@ -1,6 +1,6 @@
 # Vamora75
 
-![Vamora75 assembled]
+Vamora75 assembled
 
 Vamora75 is an 82-key, 75 % mechanical keyboard with a Windows ANSI layout. It has hot-swap
 sockets, a tab-gasket mount, a 6° typing angle, an on-board RP2040 and USB-C. It was designed by
