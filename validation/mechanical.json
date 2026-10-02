@@ -1,0 +1,174 @@
+{
+  "pcba_bbox_plate_frame": [
+    -0.0,
+    -0.0,
+    -4.995,
+    334.613,
+    134.588,
+    15.445
+  ],
+  "bottom_parts_to_floor_mm": 2.1,
+  "pcba_to_wall_mm": 1.0,
+  "overlap_mm3": {
+    "bottom_case x board": 0,
+    "top_case x board": 0,
+    "bottom_case x J1 (USB-C)": 0,
+    "bottom_case x plate": 0,
+    "top_case x plate": 0,
+    "top_case x bottom_case": 0,
+    "top_case x switches": 0,
+    "top_case x keycaps (rest)": 0,
+    "top_case x keycaps (bottomed out, 4 mm)": 0,
+    "gaskets x cases": 0,
+    "gaskets x plate": 0,
+    "bottom_case x USB-C plug overmould": 0
+  },
+  "usb_tunnel": {
+    "cut": {
+      "w": 14.0,
+      "h": 8.0,
+      "r": 3.5
+    },
+    "plug": {
+      "w": 12.35,
+      "h": 6.5,
+      "r": 3.0,
+      "shell": [
+        8.25,
+        2.4,
+        6.65
+      ]
+    },
+    "centre_z_plate_frame": -3.31,
+    "side_clearance_mm": 0.825,
+    "vertical_clearance_mm": 0.75
+  },
+  "bottom_name": {
+    "text": "Vamora75",
+    "width_mm": 180.0,
+    "bounds_world_xy": [
+      89.3,
+      66.8,
+      269.3,
+      92.6
+    ],
+    "engrave_depth_mm": 0.6
+  },
+  "feet_world_xy": [
+    [
+      22.0,
+      22.0
+    ],
+    [
+      336.6,
+      22.0
+    ],
+    [
+      22.0,
+      137.5
+    ],
+    [
+      336.6,
+      137.5
+    ]
+  ],
+  "boot_pinhole_exit_world_xy": [
+    319.3,
+    135.7
+  ],
+  "case": {
+    "mount": "tab-gasket sandwich (8 plate tabs, 16 gaskets)",
+    "typing_angle_deg": 6.0,
+    "footprint_mm": [
+      358.61,
+      161.52
+    ],
+    "front_height_mm": 20.98,
+    "rear_height_mm": 37.56,
+    "plate_top_above_desk_front_row_mm": 19.07,
+    "z_stack_plate_frame": {
+      "floor": -7.1,
+      "pcb": [
+        -1.6,
+        0
+      ],
+      "plate": [
+        3.5,
+        5.0
+      ],
+      "split": 4.25,
+      "gasket_seats": [
+        1.9,
+        6.6
+      ],
+      "lip": 6.0,
+      "case_top": 11.0
+    },
+    "gasket": {
+      "size_mm": [
+        20.0,
+        4.5,
+        2.0
+      ],
+      "installed_mm": 1.6,
+      "compression_pct": 20.0,
+      "count": 16
+    },
+    "screws": {
+      "count": 8,
+      "spec": "M3 x 8 ISO 4762 socket head",
+      "insert": "M3 x 4 x 4.0 mm heat-set insert"
+    },
+    "feet": "10 x 3 mm silicone bumper"
+  },
+  "case_bottom": {
+    "valid": true,
+    "solids": 1,
+    "volume_cm3": 757.4
+  },
+  "case_top": {
+    "valid": true,
+    "solids": 1,
+    "volume_cm3": 86.4
+  },
+  "bottom_seam_world_x": 224.25,
+  "print_split": {
+    "seams_world_x": [
+      149.31,
+      224.25
+    ],
+    "piece_sizes_mm": {
+      "Vamora75_case_top_L": [
+        149.3,
+        158.4,
+        23.2
+      ],
+      "Vamora75_case_top_R": [
+        209.3,
+        158.4,
+        23.2
+      ],
+      "Vamora75_case_bottom_L": [
+        224.3,
+        160.9,
+        30.9
+      ],
+      "Vamora75_case_bottom_R": [
+        134.4,
+        160.9,
+        30.9
+      ]
+    },
+    "dowels": "3 x 12 mm steel dowel (or printed pin)",
+    "fits_bed_mm": [
+      250,
+      210
+    ]
+  },
+  "soft_parts": {
+    "gaskets": "16 x 20 x 4.5 mm, 2.0 mm Poron 4701-50 or 40A silicone",
+    "case_foam": "3 mm PE/Poron, USB-C and BOOT cut-outs",
+    "plate_foam": "3.5 mm Poron/PE between PCB and plate, 14.5 mm switch cut-outs"
+  },
+  "result": "PASS"
+}
