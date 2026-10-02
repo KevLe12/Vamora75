@@ -1,0 +1,485 @@
+(footprint "Stabilizer_MX_6.25u"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "MX PCB Stabilizer 6.25u")
+	(tags "MX Keyboard Stabilizer 6.25u Cutout")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "d1b3408e-f402-42d9-9b80-657c110819c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Stabilizer_MX_6.25u"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "19cd6154-9725-42f1-9240-5e57529476b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21aca1b7-7f30-476d-8b01-c67e98be16eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01ee5191-1bda-410e-8a6b-95e256d3f0c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2 0)
+		(end 2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "9a273ead-e41a-4b22-95ae-1b1d98fd0d91")
+	)
+	(fp_line
+		(start 0 2)
+		(end 0 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7aa0ed3d-8b8b-4625-889b-f516a8d4d6b8")
+	)
+	(fp_line
+		(start -53.375 -5.53)
+		(end -53.375 6.77)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "078183bb-8d92-4440-8a88-ab26b1872332")
+	)
+	(fp_line
+		(start -53.375 6.77)
+		(end -46.625 6.77)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "46e41443-c35b-448e-b65a-38c811a3ca6a")
+	)
+	(fp_line
+		(start -46.625 -5.53)
+		(end -53.375 -5.53)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "e251ca80-26c4-4b13-b9e0-90dd22b40efe")
+	)
+	(fp_line
+		(start -46.625 6.77)
+		(end -46.625 -5.53)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "92436250-fdf6-4496-8319-adf819766898")
+	)
+	(fp_line
+		(start 46.625 -5.53)
+		(end 46.625 6.77)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "51f9123d-5924-4b66-8270-8c9bb708bbfc")
+	)
+	(fp_line
+		(start 46.625 6.77)
+		(end 53.375 6.77)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "b3733e8d-9e12-4db7-9eae-dd0e7efe4a1c")
+	)
+	(fp_line
+		(start 53.375 -5.53)
+		(end 46.625 -5.53)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "5de39f1a-8356-4337-9a1f-3ebdb1ba1e29")
+	)
+	(fp_line
+		(start 53.375 6.77)
+		(end 53.375 -5.53)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "e460bcb7-c146-4997-b856-2ef8182c8e2b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f76886aa-bf15-4330-a066-e952808a271e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -50 -6.985)
+		(size 3.048 3.048)
+		(drill 3.048)
+		(layers "*.Cu" "*.Mask")
+		(uuid "61d9189e-c9b4-475e-8b28-a88fae0f7ab8")
+	)
+	(pad "" np_thru_hole circle
+		(at -50 8.225)
+		(size 3.9878 3.9878)
+		(drill 3.9878)
+		(layers "*.Cu" "*.Mask")
+		(uuid "9b4e972f-6b2d-41a5-a112-7264eb75c069")
+	)
+	(pad "" np_thru_hole circle
+		(at 50 -6.985)
+		(size 3.048 3.048)
+		(drill 3.048)
+		(layers "*.Cu" "*.Mask")
+		(uuid "401481aa-926c-402d-b630-114a33f94ece")
+	)
+	(pad "" np_thru_hole circle
+		(at 50 8.225)
+		(size 3.9878 3.9878)
+		(drill 3.9878)
+		(layers "*.Cu" "*.Mask")
+		(uuid "8d29b0d1-264a-4b8c-a48d-7afdab65fe6e")
+	)
+	(zone
+		(layer "B.Cu")
+		(uuid "32114a5f-78e1-4285-b93b-eb9784253675")
+		(name "stab_screw_keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -47 -6.985) (xy -47.102223 -6.208543) (xy -47.401924 -5.485001) (xy -47.87868 -4.86368) (xy -48.5 -4.386924)
+				(xy -49.223543 -4.087223) (xy -50 -3.985) (xy -50.776457 -4.087223) (xy -51.499999 -4.386924) (xy -52.12132 -4.86368)
+				(xy -52.598076 -5.485001) (xy -52.897777 -6.208543) (xy -53 -6.985) (xy -52.897777 -7.761457) (xy -52.598076 -8.484999)
+				(xy -52.12132 -9.10632) (xy -51.5 -9.583076) (xy -50.776457 -9.882777) (xy -50 -9.985) (xy -49.223543 -9.882777)
+				(xy -48.5 -9.583076) (xy -47.87868 -9.10632) (xy -47.401924 -8.485) (xy -47.102223 -7.761457)
+			)
+		)
+	)
+	(zone
+		(layer "B.Cu")
+		(uuid "be2e472e-9fca-4adc-9329-e3204058ccb2")
+		(name "stab_screw_keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -47 -6.985) (xy -47.102223 -6.208543) (xy -47.401924 -5.485001) (xy -47.87868 -4.86368) (xy -48.5 -4.386924)
+				(xy -49.223543 -4.087223) (xy -50 -3.985) (xy -50.776457 -4.087223) (xy -51.499999 -4.386924) (xy -52.12132 -4.86368)
+				(xy -52.598076 -5.485001) (xy -52.897777 -6.208543) (xy -53 -6.985) (xy -52.897777 -7.761457) (xy -52.598076 -8.484999)
+				(xy -52.12132 -9.10632) (xy -51.5 -9.583076) (xy -50.776457 -9.882777) (xy -50 -9.985) (xy -49.223543 -9.882777)
+				(xy -48.5 -9.583076) (xy -47.87868 -9.10632) (xy -47.401924 -8.485) (xy -47.102223 -7.761457)
+			)
+		)
+	)
+	(zone
+		(layer "B.Cu")
+		(uuid "4de28bf8-22bf-47f4-901e-1d56b2306084")
+		(name "stab_screw_keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -47 8.225) (xy -47.102223 9.001457) (xy -47.401924 9.724999) (xy -47.87868 10.34632) (xy -48.5 10.823076)
+				(xy -49.223543 11.122777) (xy -50 11.225) (xy -50.776457 11.122777) (xy -51.499999 10.823076) (xy -52.12132 10.34632)
+				(xy -52.598076 9.724999) (xy -52.897777 9.001457) (xy -53 8.225) (xy -52.897777 7.448543) (xy -52.598076 6.725001)
+				(xy -52.12132 6.10368) (xy -51.5 5.626924) (xy -50.776457 5.327223) (xy -50 5.225) (xy -49.223543 5.327223)
+				(xy -48.5 5.626924) (xy -47.87868 6.10368) (xy -47.401924 6.725) (xy -47.102223 7.448543)
+			)
+		)
+	)
+	(zone
+		(layer "B.Cu")
+		(uuid "557c8e1d-bf77-4e6c-947e-85ce06a4a222")
+		(name "stab_screw_keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -47 8.225) (xy -47.102223 9.001457) (xy -47.401924 9.724999) (xy -47.87868 10.34632) (xy -48.5 10.823076)
+				(xy -49.223543 11.122777) (xy -50 11.225) (xy -50.776457 11.122777) (xy -51.499999 10.823076) (xy -52.12132 10.34632)
+				(xy -52.598076 9.724999) (xy -52.897777 9.001457) (xy -53 8.225) (xy -52.897777 7.448543) (xy -52.598076 6.725001)
+				(xy -52.12132 6.10368) (xy -51.5 5.626924) (xy -50.776457 5.327223) (xy -50 5.225) (xy -49.223543 5.327223)
+				(xy -48.5 5.626924) (xy -47.87868 6.10368) (xy -47.401924 6.725) (xy -47.102223 7.448543)
+			)
+		)
+	)
+	(zone
+		(layer "B.Cu")
+		(uuid "aa78ffe4-5646-4a86-9d23-75af1f99d801")
+		(name "stab_screw_keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 53 -6.985) (xy 52.897777 -6.208543) (xy 52.598076 -5.485001) (xy 52.12132 -4.86368) (xy 51.5 -4.386924)
+				(xy 50.776457 -4.087223) (xy 50 -3.985) (xy 49.223543 -4.087223) (xy 48.500001 -4.386924) (xy 47.87868 -4.86368)
+				(xy 47.401924 -5.485001) (xy 47.102223 -6.208543) (xy 47 -6.985) (xy 47.102223 -7.761457) (xy 47.401924 -8.484999)
+				(xy 47.87868 -9.10632) (xy 48.5 -9.583076) (xy 49.223543 -9.882777) (xy 50 -9.985) (xy 50.776457 -9.882777)
+				(xy 51.5 -9.583076) (xy 52.12132 -9.10632) (xy 52.598076 -8.485) (xy 52.897777 -7.761457)
+			)
+		)
+	)
+	(zone
+		(layer "B.Cu")
+		(uuid "d5495573-e60c-422c-b164-dfc5bec32058")
+		(name "stab_screw_keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 53 -6.985) (xy 52.897777 -6.208543) (xy 52.598076 -5.485001) (xy 52.12132 -4.86368) (xy 51.5 -4.386924)
+				(xy 50.776457 -4.087223) (xy 50 -3.985) (xy 49.223543 -4.087223) (xy 48.500001 -4.386924) (xy 47.87868 -4.86368)
+				(xy 47.401924 -5.485001) (xy 47.102223 -6.208543) (xy 47 -6.985) (xy 47.102223 -7.761457) (xy 47.401924 -8.484999)
+				(xy 47.87868 -9.10632) (xy 48.5 -9.583076) (xy 49.223543 -9.882777) (xy 50 -9.985) (xy 50.776457 -9.882777)
+				(xy 51.5 -9.583076) (xy 52.12132 -9.10632) (xy 52.598076 -8.485) (xy 52.897777 -7.761457)
+			)
+		)
+	)
+	(zone
+		(layer "B.Cu")
+		(uuid "253d8cd2-46a9-4d41-ab51-6bd66d224c24")
+		(name "stab_screw_keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 53 8.225) (xy 52.897777 9.001457) (xy 52.598076 9.724999) (xy 52.12132 10.34632) (xy 51.5 10.823076)
+				(xy 50.776457 11.122777) (xy 50 11.225) (xy 49.223543 11.122777) (xy 48.500001 10.823076) (xy 47.87868 10.34632)
+				(xy 47.401924 9.724999) (xy 47.102223 9.001457) (xy 47 8.225) (xy 47.102223 7.448543) (xy 47.401924 6.725001)
+				(xy 47.87868 6.10368) (xy 48.5 5.626924) (xy 49.223543 5.327223) (xy 50 5.225) (xy 50.776457 5.327223)
+				(xy 51.5 5.626924) (xy 52.12132 6.10368) (xy 52.598076 6.725) (xy 52.897777 7.448543)
+			)
+		)
+	)
+	(zone
+		(layer "B.Cu")
+		(uuid "af95975e-d786-4ba8-91a3-f8071896e0c5")
+		(name "stab_screw_keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 53 8.225) (xy 52.897777 9.001457) (xy 52.598076 9.724999) (xy 52.12132 10.34632) (xy 51.5 10.823076)
+				(xy 50.776457 11.122777) (xy 50 11.225) (xy 49.223543 11.122777) (xy 48.500001 10.823076) (xy 47.87868 10.34632)
+				(xy 47.401924 9.724999) (xy 47.102223 9.001457) (xy 47 8.225) (xy 47.102223 7.448543) (xy 47.401924 6.725001)
+				(xy 47.87868 6.10368) (xy 48.5 5.626924) (xy 49.223543 5.327223) (xy 50 5.225) (xy 50.776457 5.327223)
+				(xy 51.5 5.626924) (xy 52.12132 6.10368) (xy 52.598076 6.725) (xy 52.897777 7.448543)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/Stabilizer_MX_6.25u.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
