@@ -70,7 +70,7 @@ What's new in 1.1 ([CHANGELOG.md](CHANGELOG.md)):
 
 ## Credits
 
-Designed by the Vamora team (Việt Nam, USA, Morocco). Footprints and 3D models for the switches,
+Designed by the Vamora team (Kevin Le, Sammy DeGraaff, Mohammed-Mehdi Hamdaoui). Footprints and 3D models for the switches,
 sockets, stabilisers and several components are from Joe Scotto's
 [ScottoKicad](https://github.com/joe-scotto/scottokeebs). For all third-party data and licences see
 [ATTRIBUTION.md](ATTRIBUTION.md) and [Licenses/](Licenses).
