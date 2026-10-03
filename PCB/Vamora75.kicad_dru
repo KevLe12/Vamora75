@@ -1,0 +1,12 @@
+(version 1)
+# Vamora75 custom design rules (KiCad 10)
+# Fine-pitch fan-outs (RP2040 QFN-56 0.4 mm, USON-8 flash, USB-C 0.5 mm pads) use 0.15 mm
+# clearance inside named rule areas; JLCPCB's 2-layer minimum is 0.10 mm.
+(rule "fanout clearance"
+	(condition "A.intersectsArea('FANOUT_USB') || B.intersectsArea('FANOUT_USB') || A.intersectsArea('FANOUT_QSPI') || B.intersectsArea('FANOUT_QSPI') || A.intersectsArea('FANOUT_QFN') || B.intersectsArea('FANOUT_QFN')")
+	(constraint clearance (min 0.15mm)))
+# 0.45 mm / 0.3 mm vias are standard-price at JLCPCB (diameter >= hole + 0.15 mm)
+(rule "small vias"
+	(condition "A.Type == 'Via'")
+	(constraint via_diameter (min 0.45mm))
+	(constraint hole_size (min 0.2mm)))

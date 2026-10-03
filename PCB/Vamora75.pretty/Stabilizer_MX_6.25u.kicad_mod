@@ -1,0 +1,350 @@
+(footprint "Stabilizer_MX_6.25u"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "MX PCB Stabilizer 6.25u")
+	(tags "MX Keyboard Stabilizer 6.25u Cutout")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "6f1456a2-5d27-43c1-a452-4d49088ade95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Stabilizer_MX_6.25u"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "d4cdfa36-8141-4b47-a73a-3bda6fa78bc8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea302f7d-b9b7-47e9-910c-6c06c31b7c93")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1343b093-9ef5-4234-a435-d08b9a387e79")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2 0)
+		(end 2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c55f305b-566e-4331-bd4b-616f6a244903")
+	)
+	(fp_line
+		(start 0 2)
+		(end 0 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e4e74b7b-adb2-4f32-89eb-e519c860374e")
+	)
+	(fp_line
+		(start -53.375 -5.53)
+		(end -53.375 6.77)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "ff9317a8-d562-493e-8332-6df892a37433")
+	)
+	(fp_line
+		(start -53.375 6.77)
+		(end -46.625 6.77)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "9712896d-863d-4552-993d-1f64b7fbd666")
+	)
+	(fp_line
+		(start -46.625 -5.53)
+		(end -53.375 -5.53)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "7f4f18f1-5955-40d8-a205-75b2f4df2219")
+	)
+	(fp_line
+		(start -46.625 6.77)
+		(end -46.625 -5.53)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "235ad4ff-e483-45bb-aa99-e9dcc53c422e")
+	)
+	(fp_line
+		(start 46.625 -5.53)
+		(end 46.625 6.77)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "4d902673-41d7-4728-ab92-da785ecf47f0")
+	)
+	(fp_line
+		(start 46.625 6.77)
+		(end 53.375 6.77)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "af6ee603-9167-49f0-885f-561f0abaa6ea")
+	)
+	(fp_line
+		(start 53.375 -5.53)
+		(end 46.625 -5.53)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "96655407-c732-4399-95a5-55a41afb9e99")
+	)
+	(fp_line
+		(start 53.375 6.77)
+		(end 53.375 -5.53)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "bc8ef072-744b-4a12-b921-5cea5fedd13a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a54689ad-ac10-469c-b289-37d9c5f3f69a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -50 -6.985)
+		(size 4.6 4.6)
+		(drill 3.048)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3bae958d-22b1-4c41-992a-acc6132cd86e")
+	)
+	(pad "" thru_hole circle
+		(at -50 8.225)
+		(size 6 6)
+		(drill 3.9878)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "80e39e62-930c-4888-8050-b1a826098b53")
+	)
+	(pad "" thru_hole circle
+		(at 50 -6.985)
+		(size 4.6 4.6)
+		(drill 3.048)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "739c2bf8-a966-4820-b9fd-0d28baa6edf9")
+	)
+	(pad "" thru_hole circle
+		(at 50 8.225)
+		(size 6 6)
+		(drill 3.9878)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7f27d156-ad80-4851-b46a-4043929caa3e")
+	)
+	(zone
+		(layer "B.Cu")
+		(uuid "4af22939-00df-4f6a-97a8-e0a90d51d399")
+		(name "stab_screw_keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -47.2 -6.985) (xy -47.295408 -6.260307) (xy -47.575129 -5.585001) (xy -48.020102 -5.005102)
+				(xy -48.6 -4.560129) (xy -49.275307 -4.280408) (xy -50 -4.185) (xy -50.724693 -4.280408) (xy -51.399999 -4.560129)
+				(xy -51.979898 -5.005102) (xy -52.424871 -5.585001) (xy -52.704592 -6.260307) (xy -52.8 -6.985)
+				(xy -52.704592 -7.709693) (xy -52.424871 -8.384999) (xy -51.979898 -8.964898) (xy -51.4 -9.409871)
+				(xy -50.724693 -9.689592) (xy -50 -9.785) (xy -49.275307 -9.689592) (xy -48.6 -9.409871) (xy -48.020102 -8.964898)
+				(xy -47.575129 -8.385) (xy -47.295408 -7.709693)
+			)
+		)
+	)
+	(zone
+		(layer "B.Cu")
+		(uuid "22af65e6-10e0-4371-b3e4-f570c028f0df")
+		(name "stab_screw_keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -46.5 8.225) (xy -46.61926 9.130866) (xy -46.968912 9.974999) (xy -47.525127 10.699873) (xy -48.25 11.256088)
+				(xy -49.094134 11.60574) (xy -50 11.725) (xy -50.905866 11.60574) (xy -51.749999 11.256088) (xy -52.474873 10.699873)
+				(xy -53.031088 9.974999) (xy -53.38074 9.130866) (xy -53.5 8.225) (xy -53.38074 7.319134) (xy -53.031088 6.475001)
+				(xy -52.474873 5.750127) (xy -51.75 5.193912) (xy -50.905866 4.84426) (xy -50 4.725) (xy -49.094134 4.84426)
+				(xy -48.25 5.193912) (xy -47.525127 5.750127) (xy -46.968912 6.475) (xy -46.61926 7.319134)
+			)
+		)
+	)
+	(zone
+		(layer "B.Cu")
+		(uuid "596b4a28-88d3-422b-92f6-7c0b02c2abeb")
+		(name "stab_screw_keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 52.8 -6.985) (xy 52.704592 -6.260307) (xy 52.424871 -5.585001) (xy 51.979898 -5.005102) (xy 51.4 -4.560129)
+				(xy 50.724693 -4.280408) (xy 50 -4.185) (xy 49.275307 -4.280408) (xy 48.600001 -4.560129) (xy 48.020102 -5.005102)
+				(xy 47.575129 -5.585001) (xy 47.295408 -6.260307) (xy 47.2 -6.985) (xy 47.295408 -7.709693) (xy 47.575129 -8.384999)
+				(xy 48.020102 -8.964898) (xy 48.6 -9.409871) (xy 49.275307 -9.689592) (xy 50 -9.785) (xy 50.724693 -9.689592)
+				(xy 51.4 -9.409871) (xy 51.979898 -8.964898) (xy 52.424871 -8.385) (xy 52.704592 -7.709693)
+			)
+		)
+	)
+	(zone
+		(layer "B.Cu")
+		(uuid "db5d6d61-6a23-46e3-bbca-475ac92677c1")
+		(name "stab_screw_keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 53.5 8.225) (xy 53.38074 9.130866) (xy 53.031088 9.974999) (xy 52.474873 10.699873) (xy 51.75 11.256088)
+				(xy 50.905866 11.60574) (xy 50 11.725) (xy 49.094134 11.60574) (xy 48.250001 11.256088) (xy 47.525127 10.699873)
+				(xy 46.968912 9.974999) (xy 46.61926 9.130866) (xy 46.5 8.225) (xy 46.61926 7.319134) (xy 46.968912 6.475001)
+				(xy 47.525127 5.750127) (xy 48.25 5.193912) (xy 49.094134 4.84426) (xy 50 4.725) (xy 50.905866 4.84426)
+				(xy 51.75 5.193912) (xy 52.474873 5.750127) (xy 53.031088 6.475) (xy 53.38074 7.319134)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/Stabilizer_MX_6.25u.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
