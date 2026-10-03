@@ -1,4 +1,0 @@
-(fp_lib_table
-	(version 7)
-	(lib (name "Vamora75")(type "KiCad")(uri "${KIPRJMOD}/Vamora75.pretty")(options "")(descr "Vamora75 project footprints"))
-)
