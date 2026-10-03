@@ -1,0 +1,14 @@
+# CAD / generator environment for Source/*.py (Python 3.13). KiCad 10.0.6 is needed separately
+# (kicad-cli and KiCad's own Python, which provides pcbnew for kicad_build.py, kicad_plate.py and
+# extract_obstacles.py).
+cadquery==2.8.0
+cadquery-ocp==7.9.3.1.1
+shapely==2.1.2
+numpy==2.5.3
+scipy==1.18.1
+ezdxf==1.4.4
+matplotlib==3.11.2
+pillow==12.3.0
+uharfbuzz==0.56.2
+fonttools==4.66.1
+vtk==9.6.2
