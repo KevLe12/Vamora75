@@ -1,0 +1,1283 @@
+{
+ "project": "Vamora75",
+ "revision": "1.3",
+ "generated": "2026-10-31",
+ "folders": {
+  "PCB": "KiCad 10 project (schematic, board, library, 3D models)",
+  "Plate": "KiCad boards for ordering the FR4 plate",
+  "Mechanical": "case, plate, soft parts, assemblies (STEP/STL/DXF)",
+  "Manufacturing": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)",
+  "Firmware": "QMK + VIA, CircuitPython, layout files",
+  "Artwork": "Vamora75 name artwork (SVG/PNG/DXF)",
+  "Previews": "renders",
+  "Source": "generators (rebuild everything with build_all.py)",
+  "validation": "ERC / DRC / mechanical / firmware reports",
+  "Licenses": "third-party licences",
+  "Reference": "input snapshots supplied with the project",
+  "Archive": "previous revisions, unchanged"
+ },
+ "file_count": 210,
+ "total_bytes": 171467014,
+ "files": [
+  {
+   "path": ".gitignore",
+   "bytes": 363,
+   "sha256": "0408ae1d9be6bb2f6a8eb7f9582223e6b73b3eb5b6deae46823f987020f2600a",
+   "role": "documentation"
+  },
+  {
+   "path": "Artwork/NAME.md",
+   "bytes": 1727,
+   "sha256": "a5d5e5e7112aa08141bc2a561564bbe84b91a6f03e4982f6625edaa219f655f6",
+   "role": "Vamora75 name artwork (SVG/PNG/DXF)"
+  },
+  {
+   "path": "Artwork/Vamora75_name_black.png",
+   "bytes": 38424,
+   "sha256": "81b5b666f7f669a07607a10e7bbad52f96637a8ba97ddd5ad223baff71e02f5c",
+   "role": "Vamora75 name artwork (SVG/PNG/DXF)"
+  },
+  {
+   "path": "Artwork/Vamora75_name_black.svg",
+   "bytes": 11466,
+   "sha256": "51339cbf6d1e22825d403ccadb3df993bffd78432baadc96573bacc421ae368a",
+   "role": "Vamora75 name artwork (SVG/PNG/DXF)"
+  },
+  {
+   "path": "Artwork/Vamora75_name_engrave.dxf",
+   "bytes": 57832,
+   "sha256": "07a138d2a69b88efb24e3542b832ffbd37cffed57842380fa7f2e5e3dd7153af",
+   "role": "Vamora75 name artwork (SVG/PNG/DXF)"
+  },
+  {
+   "path": "Artwork/Vamora75_name_on_graphite.png",
+   "bytes": 49434,
+   "sha256": "7655b88a645ddb63fd15aa6218d6630eb30069fc201c7da7f561333350ad30d0",
+   "role": "Vamora75 name artwork (SVG/PNG/DXF)"
+  },
+  {
+   "path": "Artwork/Vamora75_name_on_graphite.svg",
+   "bytes": 11545,
+   "sha256": "730bff4a3896e45a45a7af9b87ff5184af50219366219b5ff1213ee142fc80e2",
+   "role": "Vamora75 name artwork (SVG/PNG/DXF)"
+  },
+  {
+   "path": "Artwork/Vamora75_name_sheet.png",
+   "bytes": 140905,
+   "sha256": "c2496df87c9309ed3dfeab74dc3ef8802f88261c8d141c570096c4b273db2a3b",
+   "role": "Vamora75 name artwork (SVG/PNG/DXF)"
+  },
+  {
+   "path": "Artwork/Vamora75_name_white.png",
+   "bytes": 34218,
+   "sha256": "86b6f96711a51383d4c8a76ef89f8c4521656a49933afeb3dea63a6ff42a2f80",
+   "role": "Vamora75 name artwork (SVG/PNG/DXF)"
+  },
+  {
+   "path": "Artwork/Vamora75_name_white.svg",
+   "bytes": 11466,
+   "sha256": "75953db38de57ae16d5d7c365fd2ead1e8c9e35d08f49f59368d3b69e629379f",
+   "role": "Vamora75 name artwork (SVG/PNG/DXF)"
+  },
+  {
+   "path": "ATTRIBUTION.md",
+   "bytes": 5288,
+   "sha256": "73ad3e37079c965445332602675dd49f8bedd2936b9a426e4ba14f75bb2a0886",
+   "role": "documentation"
+  },
+  {
+   "path": "BOM.csv",
+   "bytes": 4468,
+   "sha256": "6aabfc920ebd1b802ada3921092fdbdf6776104f96ccb26c0fb5d078b6f6c4f0",
+   "role": "documentation"
+  },
+  {
+   "path": "BUILD_GUIDE.md",
+   "bytes": 6465,
+   "sha256": "76d3d2a22e66474be72b0b230ff7d69bed5dd74e6c676eb11836f08b178de14d",
+   "role": "documentation"
+  },
+  {
+   "path": "CHANGELOG.md",
+   "bytes": 9386,
+   "sha256": "2c3d07915f05a4d7651b847fbcb7d944bcd1ea578837e1396e8754767d0d75ab",
+   "role": "documentation"
+  },
+  {
+   "path": "DESIGN_REVIEW.md",
+   "bytes": 11546,
+   "sha256": "2348e71ebb66acb4284124b3f474bac418ff0c89ed807b021f2d30d2d96086ff",
+   "role": "documentation"
+  },
+  {
+   "path": "Firmware/CircuitPython/boot.py",
+   "bytes": 763,
+   "sha256": "b928449d0292ecea0964795664f5c8437915c40599f9402747098247812ab536",
+   "role": "QMK + VIA, CircuitPython, layout files"
+  },
+  {
+   "path": "Firmware/CircuitPython/code.py",
+   "bytes": 2064,
+   "sha256": "56dd61463feba2d3945ab39422376410763a18cb6726752f22ba38cc61b2a62e",
+   "role": "QMK + VIA, CircuitPython, layout files"
+  },
+  {
+   "path": "Firmware/CircuitPython/keymap.py",
+   "bytes": 934,
+   "sha256": "07a7e4eeaee0291317d9029767cda4e3e3144bd7bfdb4c6c47a9e6aef78d9bc0",
+   "role": "QMK + VIA, CircuitPython, layout files"
+  },
+  {
+   "path": "Firmware/CircuitPython/report.py",
+   "bytes": 967,
+   "sha256": "bbc284998fda9e480c65af282509da62bc9d841d145b876255c0213c4976671a",
+   "role": "QMK + VIA, CircuitPython, layout files"
+  },
+  {
+   "path": "Firmware/layout/vamora75.kle.json",
+   "bytes": 1512,
+   "sha256": "a2e0840584962d62d059f32b289c13c683b6e119891d5c222186898b4ca2f9de",
+   "role": "QMK + VIA, CircuitPython, layout files"
+  },
+  {
+   "path": "Firmware/qmk/keyboards/vamora75/config.h",
+   "bytes": 608,
+   "sha256": "a903a046a8348dc1d4aaa900b17344a91c0e5d57280869e507839febd9f7c25a",
+   "role": "QMK + VIA, CircuitPython, layout files"
+  },
+  {
+   "path": "Firmware/qmk/keyboards/vamora75/keyboard.json",
+   "bytes": 21908,
+   "sha256": "a90e0c22ad44307d4d3cfc2693a26342f84497f8a7bb20df5779c70e78fa25b2",
+   "role": "QMK + VIA, CircuitPython, layout files"
+  },
+  {
+   "path": "Firmware/qmk/keyboards/vamora75/keymaps/default/keymap.c",
+   "bytes": 1747,
+   "sha256": "ab2fcda66086005fce45e1f5c310d9267c3c7374a2d700444db01cf38ab4ea01",
+   "role": "QMK + VIA, CircuitPython, layout files"
+  },
+  {
+   "path": "Firmware/qmk/keyboards/vamora75/keymaps/via/keymap.c",
+   "bytes": 3419,
+   "sha256": "d26aea8a852e5061e32ec192212231d8cc94bd3fe7acedb249139f5236aa8e96",
+   "role": "QMK + VIA, CircuitPython, layout files"
+  },
+  {
+   "path": "Firmware/qmk/keyboards/vamora75/keymaps/via/rules.mk",
+   "bytes": 18,
+   "sha256": "1382ca89b0fc3bdec2b35fc5f8d3aa8107e0c1cddb39c137e8228fffcab14035",
+   "role": "QMK + VIA, CircuitPython, layout files"
+  },
+  {
+   "path": "Firmware/qmk/keyboards/vamora75/readme.md",
+   "bytes": 1062,
+   "sha256": "75b9c69b764a6dcd8887f4ba5c30c1ea021343ed7bf80e5e6f6dc55daea6f7e8",
+   "role": "QMK + VIA, CircuitPython, layout files"
+  },
+  {
+   "path": "Firmware/README.md",
+   "bytes": 3015,
+   "sha256": "ef86118278d54f5fabf12fb342fb1fcae6142c3206b2b0779734e99d519ccd81",
+   "role": "QMK + VIA, CircuitPython, layout files"
+  },
+  {
+   "path": "Firmware/via/vamora75.via.json",
+   "bytes": 2691,
+   "sha256": "d7fead454b8ab7ee9a46e825ebaa7d811be95e8ac4fda90501b5c030b2853422",
+   "role": "QMK + VIA, CircuitPython, layout files"
+  },
+  {
+   "path": "GITHUB_UPLOAD.md",
+   "bytes": 2286,
+   "sha256": "6d942ef749a537f7918144308a4a2bb7a819cffd9f30c39310fbaed70093392f",
+   "role": "documentation"
+  },
+  {
+   "path": "layout.json",
+   "bytes": 26506,
+   "sha256": "65057eed7ed00383e5b14ed0a73a236ed33d0a4a1cb863dcaa5b4d29d94fb106",
+   "role": "documentation"
+  },
+  {
+   "path": "Licenses/CircuitPython-LICENSE.txt",
+   "bytes": 1431,
+   "sha256": "f8d44b948113cff390f6454e59069139a92da75227a7b50bb3589499d4b5fe1b",
+   "role": "third-party licences"
+  },
+  {
+   "path": "Licenses/KiCad-library-license.md",
+   "bytes": 2105,
+   "sha256": "285b027a721577d0bc0198f36e948c6c282ddaa4b58fef8ed826749576eb0aef",
+   "role": "third-party licences"
+  },
+  {
+   "path": "Licenses/KiCad_footprints_copyright.txt",
+   "bytes": 19872,
+   "sha256": "03f5fcdc251f930d1525f129479f3bac587b0a0cf9e39a16f2647f37c0f4d8e8",
+   "role": "third-party licences"
+  },
+  {
+   "path": "Licenses/Manta75-CC-BY-4.0.md",
+   "bytes": 17225,
+   "sha256": "0c4931c08b01e1c026dc0d904034f2ccdd04be800e1da298d16f71b734536b1a",
+   "role": "third-party licences"
+  },
+  {
+   "path": "Licenses/MX_V2_LICENSE.txt",
+   "bytes": 1061,
+   "sha256": "55e456ffa58f1ff68b3bca4fe508cf2bcfc465feb3ea94e20466a68c0cbbb141",
+   "role": "third-party licences"
+  },
+  {
+   "path": "Licenses/QMK-LICENSE.txt",
+   "bytes": 18092,
+   "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+   "role": "third-party licences"
+  },
+  {
+   "path": "Licenses/ScottoKicad-NOTICE.md",
+   "bytes": 1306,
+   "sha256": "0ee1fa4b3944122be6f9fc909255060ce480286a0167413b968298c5eff7b9bc",
+   "role": "third-party licences"
+  },
+  {
+   "path": "Manufacturing/Case_Drawings/READ_ME.txt",
+   "bytes": 954,
+   "sha256": "dc6bd2fe8ed3375c8e76261c489d3e7779490f4d6e0d2873e8ca8c467d423112",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/Case_Drawings/validation.json",
+   "bytes": 800,
+   "sha256": "3fd3be367783a87ea4a57d0ca658d0eb3b964e542be20ba940c3e207ab6f3e8a",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/Case_Drawings/Vamora75_case_bottom.step",
+   "bytes": 3155468,
+   "sha256": "84a12918363dfb80e54220fef8ceda4089827a100e714dd2ab146c9649018a88",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/Case_Drawings/Vamora75_case_bottom_dimensioned.dxf",
+   "bytes": 737261,
+   "sha256": "4e0e97ae514be934f3be49cd036e667aba93d8688561169af4378ac5e6a78f88",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/Case_Drawings/Vamora75_case_CAD_review_package.zip",
+   "bytes": 1116162,
+   "sha256": "e7b3796310223cc67724adf9e79f51c623ce327fd401c798e1d319c7ae2c8511",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/Case_Drawings/Vamora75_case_dimensioned_review.pdf",
+   "bytes": 174214,
+   "sha256": "a73f5a0906819b141c8920492c16226d146c1b21f5a514c8c13815a2edbf43c8",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/Case_Drawings/Vamora75_case_top.step",
+   "bytes": 1002614,
+   "sha256": "fa2e1241c4c2fb64bc90ea76298802fd5bb6434f2dcbc245634729df665d2703",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/Case_Drawings/Vamora75_case_top_dimensioned.dxf",
+   "bytes": 637337,
+   "sha256": "58524c80745c22d3c9d64f3b7581f6890a60df0969ca3ad5a9f3a7a620ff7b26",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/FABRICATION.md",
+   "bytes": 6198,
+   "sha256": "1db269294c2bd526207b7db55ebbf558e1076b72475f6740e01da182e0007348",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/PCB/gerbers/FABRICATION_REVIEW_REQUIRED.txt",
+   "bytes": 507,
+   "sha256": "69cb4c78cc1832a920ac271c6414a118dbf8cb1fb4f05d4fadf95f419bd92e07",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/PCB/gerbers/Vamora75-B_Cu.gbl",
+   "bytes": 1595682,
+   "sha256": "208f6e39e7cf3b37e6a9e79b06fafd65236cbf5066adbf54ffb35d28eec091f0",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/PCB/gerbers/Vamora75-B_Mask.gbs",
+   "bytes": 35605,
+   "sha256": "cea343d0bcf059743da8b45a42a2cbf7d6b2c94de228a86f88f7c2b086203f1b",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/PCB/gerbers/Vamora75-B_Paste.gbp",
+   "bytes": 20576,
+   "sha256": "03e66b16433d311640f1d6b74866c80b3e939c985220c42d5140349f08cc913f",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/PCB/gerbers/Vamora75-B_Silkscreen.gbo",
+   "bytes": 535721,
+   "sha256": "637e77b2d6f219900cdf856acf5ca5f4c2c478dcf571e4cf4c0e0f9e3bbbda96",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/PCB/gerbers/Vamora75-Edge_Cuts.gm1",
+   "bytes": 1030,
+   "sha256": "73a820b79a213a7a77e4b88858eb6487e8078f2b20c1610f79470641d8652589",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/PCB/gerbers/Vamora75-F_Cu.gtl",
+   "bytes": 1042155,
+   "sha256": "dc0dc2dd535e18590c6dd5dc311b1e0fd928f580d895a1dc14213ccd3515495b",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/PCB/gerbers/Vamora75-F_Mask.gts",
+   "bytes": 16095,
+   "sha256": "3024cd2ee7602b8bdf823b59b6e911070a683438fabe3cd3b82ad885fbb890c8",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/PCB/gerbers/Vamora75-F_Paste.gtp",
+   "bytes": 467,
+   "sha256": "bd6371f484c3d65b447f780180aaa0bcdd94c9743a8194d54d8ec1e27345ca72",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/PCB/gerbers/Vamora75-F_Silkscreen.gto",
+   "bytes": 187700,
+   "sha256": "f0f9c6bd48a916c6025e3380cd0bfcd7318a77444a116ea30348ef821a37799e",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/PCB/gerbers/Vamora75-job.gbrjob",
+   "bytes": 2933,
+   "sha256": "d2b117c388ffd85eeb4e773671153dd79651cdb3ebb2f2d86e45bbbc077f87fd",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/PCB/gerbers/Vamora75-NPTH-drl_map.gbr",
+   "bytes": 131744,
+   "sha256": "5eec78d2e3087700882e8fb24d27003bb7be54cb9b99e84cf8e36d09f3c67000",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/PCB/gerbers/Vamora75-NPTH.drl",
+   "bytes": 7703,
+   "sha256": "b7b1358d1c6a3d0c5fd2f926febdc8b4bee4a69eaffac552c7722203ef73af02",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/PCB/gerbers/Vamora75-PTH-drl_map.gbr",
+   "bytes": 108550,
+   "sha256": "d31a0a10938ed602dbe833be3ade000e0786ce1b0dd6d4018df574ebcae714fc",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/PCB/gerbers/Vamora75-PTH.drl",
+   "bytes": 4032,
+   "sha256": "0c1dea7bb3399c5487b9c6a524a1aa78c769471b4bf9abdad0d5a4e22c553057",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/PCB/Vamora75_assembly_bottom.pdf",
+   "bytes": 397795,
+   "sha256": "c3845589dc02b284c1b881653d936c287c21f27dcbfc2410da6fafa3cd1f13c6",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/PCB/Vamora75_BOM_JLCPCB.csv",
+   "bytes": 1849,
+   "sha256": "ab43aa3e9019d3d39967b1d371962383b2b7dd602ffe1bc9cd615b2664931627",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/PCB/Vamora75_CPL_JLCPCB.csv",
+   "bytes": 7276,
+   "sha256": "08d95e1fbfe40e275ccf18dfd69efefbb2982a3904a3acdb5067f83421cc77f7",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/PCB/Vamora75_gerbers_JLCPCB.zip",
+   "bytes": 734115,
+   "sha256": "75d5b810aa89efbfc56312ebfb754545aa66b92ed06ee7d15b72b97785beace0",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/PCB/Vamora75_schematic.pdf",
+   "bytes": 470014,
+   "sha256": "1c3d7ba8b809f254c7bb5fedb216cc5419cb656b3b34d6c089fd0243cfba5e29",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/Plate/Vamora75_Plate_flexcut_gerbers.zip",
+   "bytes": 185748,
+   "sha256": "a3e5517dbc84a97eb524f2c4fe09a59600c08cc4f2a8a0c7013ebb16201439e5",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/Plate/Vamora75_Plate_gerbers.zip",
+   "bytes": 176597,
+   "sha256": "4b99616cc7100237423c98d30a2bf5013bf90277cc9e6ca2ed6a2e6155b1af10",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Manufacturing/Vamora75_kit_BOM.csv",
+   "bytes": 1239,
+   "sha256": "14de5c63e928d042b87271f998686ab49816e0a05724bae246715d7c2d299d19",
+   "role": "fabrication and assembly outputs (Gerbers, BOM, CPL, PDFs)"
+  },
+  {
+   "path": "Mechanical/Case/print_split/Vamora75_case_bottom_L.step",
+   "bytes": 1910685,
+   "sha256": "3b0f58f8035af9a4f03372c94b506041aac8cee758fe3bc2fbd191699e079b0c",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Case/print_split/Vamora75_case_bottom_L.stl",
+   "bytes": 435084,
+   "sha256": "e2f3d0e6bd48e03533f86b2729285b6999af54c5e4a93a0f7e0e446f2565cb99",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Case/print_split/Vamora75_case_bottom_R.step",
+   "bytes": 1295832,
+   "sha256": "429d66858041e2cf55d75fa3b1d9cd12b3ed0026cc3027226337944b3750bbf9",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Case/print_split/Vamora75_case_bottom_R.stl",
+   "bytes": 403084,
+   "sha256": "43ef4d6b1a737751d6b1be4ded0f32ceab26ea67188fb251f3c2edfb94942e51",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Case/print_split/Vamora75_case_top_L.step",
+   "bytes": 398906,
+   "sha256": "863041ac89f1351824dada51f8c6fad9888aafbe47e10390bd95f83834701b51",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Case/print_split/Vamora75_case_top_L.stl",
+   "bytes": 284484,
+   "sha256": "48637ede72c7c8914c7ec968d6db6e73157d34fd0cb032a5ea9c51624cc99a54",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Case/print_split/Vamora75_case_top_R.step",
+   "bytes": 703877,
+   "sha256": "edf8a91dd7ae1a637682cae01720b7708d7e59e26015912fc0004dc92cafb834",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Case/print_split/Vamora75_case_top_R.stl",
+   "bytes": 462484,
+   "sha256": "6444b554ad364d5dd8a0c7b8394b110b33a9e46b69cfa16169647c08361d40a1",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Case/Vamora75_case_bottom.step",
+   "bytes": 3155468,
+   "sha256": "84a12918363dfb80e54220fef8ceda4089827a100e714dd2ab146c9649018a88",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Case/Vamora75_case_bottom.stl",
+   "bytes": 735484,
+   "sha256": "0dcdcb02a98fa30304e63267273e5cafc187a787effb1fdc0f144cd48792f3d1",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Case/Vamora75_case_top.step",
+   "bytes": 1002614,
+   "sha256": "fa2e1241c4c2fb64bc90ea76298802fd5bb6434f2dcbc245634729df665d2703",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Case/Vamora75_case_top.stl",
+   "bytes": 675884,
+   "sha256": "a9496a93ddd9284e084c61102a3bb26cfaaead082a117374b339de2b92a95e0f",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/key_positions.csv",
+   "bytes": 4488,
+   "sha256": "b345411c75ab0289224236de51d5b062617b64d00651ab3ea3bd25f1a6d4bea7",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Plate/Vamora75_plate_FR4.dxf",
+   "bytes": 517481,
+   "sha256": "bb866af4e382e22d5a1e6616f7e8db30b31ae5eb86668988cceeb9a5df649bc8",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Plate/Vamora75_plate_FR4.step",
+   "bytes": 3052603,
+   "sha256": "2574641ee18598d63f6b2e7705a665bf319e949eb7402548322510e1063d2625",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Plate/Vamora75_plate_FR4.stl",
+   "bytes": 1760284,
+   "sha256": "25601f1c0eeb72969123d018e581487e6a20133f20fcc02b1ff41176855fbe6f",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Plate/Vamora75_plate_FR4_flexcut.dxf",
+   "bytes": 543340,
+   "sha256": "c725372976c135457e34c76d00fc1c43d09a31e468ca79721fa0d438becec86e",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Plate/Vamora75_plate_FR4_flexcut.step",
+   "bytes": 3195624,
+   "sha256": "7ae53867c5be86710241fd3b0ee52692559cdc8f5934f637a52ebf877af6ef0b",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Plate/Vamora75_plate_FR4_flexcut.stl",
+   "bytes": 1899484,
+   "sha256": "781786d7ecc2ce49c3058a1be8a87978285edb0194ee67cfa1cd494da7005184",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/README.md",
+   "bytes": 3362,
+   "sha256": "2d8ccfb017b89ed35b77dacee7ac037d9c648dd31d7183694bc9836d907d2928",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Soft/Vamora75_case_foam_3mm.dxf",
+   "bytes": 26637,
+   "sha256": "b1ed00b077eb539561b235299d05f1cc43abdd8dddb0ec72cbc6a0934749ef45",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Soft/Vamora75_gaskets_16x_20x4.5x2mm.dxf",
+   "bytes": 21239,
+   "sha256": "87f2f174a7e3a624b2531527ad5c8900440c8cf79a8f7848dfe0179162fb70f4",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Soft/Vamora75_plate_foam_3.5mm.dxf",
+   "bytes": 38288,
+   "sha256": "efa426e7a13120ffe835811bb7c3ebecc5e2bf49fceba6e16b0c8a2cf514f0dc",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Vamora75_assembly.step",
+   "bytes": 35909591,
+   "sha256": "8e9d1bc3c9148f802c17821276bffce6656e1e8403a886a011f3fc990ecb67de",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Vamora75_PCB_plate.glb",
+   "bytes": 10071424,
+   "sha256": "709f79b935e015a7ff429b5e3e4953df868486626bc0d797d8bac607c9ef314d",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Vamora75_PCB_plate.step",
+   "bytes": 31414861,
+   "sha256": "e30a1a13b815706f365bb5156c6d6c07bb4a9e292674a93c944b3dfaca8b9855",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "Mechanical/Vamora75_PCBA.step",
+   "bytes": 28855753,
+   "sha256": "2f483ec1792e78f4fe6af5226ca2210da69e2fb2e9e12a55ecf0ea2056e80912",
+   "role": "case, plate, soft parts, assemblies (STEP/STL/DXF)"
+  },
+  {
+   "path": "PCB/3dmodels/C_0402_1005Metric.step",
+   "bytes": 43502,
+   "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/3dmodels/C_0603_1608Metric.step",
+   "bytes": 43450,
+   "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/3dmodels/Crystal_SMD_3225-4Pin_3.2x2.5mm.step",
+   "bytes": 44789,
+   "sha256": "d2a89df82ee5f0f56ef23ee59c8161b8d4e92af2b21959d72778316dde3f9f22",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/3dmodels/Diode_SOD-123.step",
+   "bytes": 105865,
+   "sha256": "4413b86c5a559a63b29f1f53fd235ffe38dd235d3c16750a8a78e855c9a802ef",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/3dmodels/Fuse_0805_2012Metric.step",
+   "bytes": 40883,
+   "sha256": "bd29ccc62530d3bcfbbe078f12aac2a99ac75d01c043a2723a4bd36540aac146",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/3dmodels/Hotswap_MX.step",
+   "bytes": 2649877,
+   "sha256": "31dd9ab0a892e02f43c13f07c3d78f83dbe64390178e64b2f1f6df4849935e5b",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/3dmodels/MX_PCB.step",
+   "bytes": 2769044,
+   "sha256": "ddf0fb3a776faa6105303efb98e39645e044c43b3ac03cbfe75d8eda28e297f4",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/3dmodels/QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm.step",
+   "bytes": 310984,
+   "sha256": "010e8039ec6f28fb1c5f5c6d170757af464c82c200ecc655c8150398117e2283",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/3dmodels/R_0402_1005Metric.step",
+   "bytes": 40756,
+   "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/3dmodels/SOT-23-6.step",
+   "bytes": 99639,
+   "sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/3dmodels/SOT-23.step",
+   "bytes": 60296,
+   "sha256": "dd5d1711204e1d8d26cd11490923bd84340820baa69538c385a4300ec2539bc0",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/3dmodels/Stabilizer_MX_2.00u.step",
+   "bytes": 2091860,
+   "sha256": "1e7adf9cdea9a10258aa006d32602e403de2b8c63dee88f238b9c11677499d9c",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/3dmodels/Stabilizer_MX_6.25u.step",
+   "bytes": 2089986,
+   "sha256": "485a61f7da35a282389ecad2f72adc7f9e89424b0347934c3e664984ef612c66",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/3dmodels/SW_Push_1P1T_XKB_TS-1187A.step",
+   "bytes": 119526,
+   "sha256": "353f55b2ffd11f083046e4c8eb8f0bc25ec715df256c6e80361b5d5fcb82d329",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/3dmodels/USB_C_HRO_TYPE-C-31-M-12.step",
+   "bytes": 1548040,
+   "sha256": "7ba0eef38f40730d7e5f251b6a01b3631d17687cddd02d9d9422ea24207543ff",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/3dmodels/Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm.step",
+   "bytes": 108363,
+   "sha256": "a661d4f73911602c49ec0dbe79117eabfd4084bafc87c10d9a35acb96c4cf253",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/fp-lib-table",
+   "bytes": 156,
+   "sha256": "147d828b705bb687b7a8203c2b80ab7381b2374486210fd941beacfb072a6e2f",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/sym-lib-table",
+   "bytes": 157,
+   "sha256": "334d9ded4ec477d4be972babadc6302d85d159aa3e3ee27d031b6e20da44b418",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.kicad_dru",
+   "bytes": 720,
+   "sha256": "ff905056d0a35fb726f491c267acd05df8a248ee4b206d14e06f2048ff24cb8a",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.kicad_pcb",
+   "bytes": 5272041,
+   "sha256": "fd681ed2853c033a9056fd065529a835e2a6674b2f91589486e5cec9c43883b3",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.kicad_pro",
+   "bytes": 18738,
+   "sha256": "d04ad2b3b7cced51d8c94d8cdc337dbeac2e963de692a4d08adf3ff588ccc2c5",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.kicad_sch",
+   "bytes": 621110,
+   "sha256": "b628c2e6fc63bda3f0c50630830c6bfbf6d4c5ac2ba9f4c309d9d5aa9484c4a0",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.kicad_sym",
+   "bytes": 73927,
+   "sha256": "52a935d636b03a9ca791c9a0083ed346efd3833747aaeb0b98de28b8bda0015f",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/C_0603_1608Metric.kicad_mod",
+   "bytes": 2881,
+   "sha256": "d634258fbbcf4c2dc1854719b3df87baef6bc99f4810336d2368428afc9776ec",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/Capacitor_0402.kicad_mod",
+   "bytes": 3395,
+   "sha256": "1d7a5e4a4c2a5f5c87fd9485fdac5286a99816cc81075f20337ab7903431f0d9",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/Crystal_SMD_3225-4Pin_3.2x2.5mm.kicad_mod",
+   "bytes": 3207,
+   "sha256": "50cce1f960858bbf3bfadbc62ea19f728d4f978ef8a999d6eb196e8ae30a2497",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/Diode_SOD-123.kicad_mod",
+   "bytes": 5508,
+   "sha256": "c5443d89a986bd538573b594ecf5bde4d847435ab3f27a90f026adc88d666df0",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/ESD_SOT-23-6.kicad_mod",
+   "bytes": 4199,
+   "sha256": "c98e01e2db57f02396d9e39c68a6cb3d8d631624c09d96a5ee2fa7b597a01ac7",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/Fiducial_1mm_Mask2mm.kicad_mod",
+   "bytes": 2034,
+   "sha256": "8866405ab2f2c9288063899f8f3e82ac4d7175c6ca2927099e321094b5f3692f",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/Fuse_0805_2012Metric.kicad_mod",
+   "bytes": 2879,
+   "sha256": "ef522899b69631aca383c45f381cd3915a9942ab432d0e82472cbebaf1574676",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/Hotswap_MX_1.00u.kicad_mod",
+   "bytes": 12160,
+   "sha256": "7be7ce04f5310f3f8d8bce154debe7f3d7204e999ea7ed194dfa09e0a64b9d0b",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/Hotswap_MX_1.25u.kicad_mod",
+   "bytes": 12184,
+   "sha256": "34f8e9b746f68ac6d1c6a286de227044c17a3c972c707bf4e074faeb5095e90e",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/Hotswap_MX_1.50u.kicad_mod",
+   "bytes": 12176,
+   "sha256": "38ae620e701678db99aaf2a2bdf44b2ef09beb6353eb194a4da3794f7eb88ab8",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/Hotswap_MX_1.75u.kicad_mod",
+   "bytes": 12184,
+   "sha256": "b923ac391604abf31aedd24d67262298e4f4c765058d06cfa1a9e1b5c0cc4406",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/Hotswap_MX_2.00u.kicad_mod",
+   "bytes": 12160,
+   "sha256": "9d733367f34103d5f8ef550eae7c819639c434464722cdb43a2c2423256c37fb",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/Hotswap_MX_2.25u.kicad_mod",
+   "bytes": 12184,
+   "sha256": "d95b2575f71b0e65fcce549400ee2ac3d0d95c40851f2625e1221bc9901596b2",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/Hotswap_MX_6.25u.kicad_mod",
+   "bytes": 12184,
+   "sha256": "53552892bcd05e347eec86c76aa72f35bfc5dbb32906ba8306454aaec79a3140",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm_ThermalVias.kicad_mod",
+   "bytes": 19290,
+   "sha256": "fb688f34518472580fab023772c2b16e84f6865365a28f30d4bad5279003471a",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/Resistor_0402.kicad_mod",
+   "bytes": 3421,
+   "sha256": "180a14d6d6b959b5dbb9b412207f16461a6a851c144c70c25164f39cd489c875",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/Stabilizer_MX_2.00u.kicad_mod",
+   "bytes": 8383,
+   "sha256": "87d4731b921ca466e88916bd79e6d212b6a19440527429a5b795eb6800030d9e",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/Stabilizer_MX_6.25u.kicad_mod",
+   "bytes": 8296,
+   "sha256": "fc9fee0cb9c97aa4d50d6ccf817b1a04e30929616334d162861ebcf9129319dc",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/SW_Push_1P1T_XKB_TS-1187A.kicad_mod",
+   "bytes": 8869,
+   "sha256": "ef3f34f69289137c06912bf90b114384ca08514ed2361075dcc577733f02111f",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/TestPoint_Pad_D1.0mm.kicad_mod",
+   "bytes": 1846,
+   "sha256": "398bb6b4bfd680f31cc2188fc2a7f666ae3f764f5f4f1078f917965d4ac4eac1",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/USB_C_HRO_TYPE-C-31-M-12.kicad_mod",
+   "bytes": 6468,
+   "sha256": "86f736e0207a823c242a47655d61aeaa498dcac07af1bd74d04c3cf86f585429",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/Voltage_SOT-23.kicad_mod",
+   "bytes": 3648,
+   "sha256": "5e95c25178d08d756f305bef7b0aa0daa4df2e95b3c7fa69da347a763dfe35f0",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "PCB/Vamora75.pretty/Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm.kicad_mod",
+   "bytes": 6503,
+   "sha256": "3499e8fa7488881e5952eea42c4c599efb5e083ab7670549e6729274e1083c63",
+   "role": "KiCad 10 project (schematic, board, library, 3D models)"
+  },
+  {
+   "path": "Plate/Vamora75_Plate.kicad_pcb",
+   "bytes": 296357,
+   "sha256": "18b015c965868f96284cb7e040ee60193742ac7db579ec2f7f425c87e543ab9c",
+   "role": "KiCad boards for ordering the FR4 plate"
+  },
+  {
+   "path": "Plate/Vamora75_Plate.kicad_pro",
+   "bytes": 9766,
+   "sha256": "4cb54618f031063bc560545a3250761738e7ed1bdb261a7c1bfb5f7623d93952",
+   "role": "KiCad boards for ordering the FR4 plate"
+  },
+  {
+   "path": "Plate/Vamora75_Plate_flexcut.kicad_pcb",
+   "bytes": 309891,
+   "sha256": "5304d9f76752cd469541767b8f9f73c560dd251bf8c9beb03b6e36f0510b7907",
+   "role": "KiCad boards for ordering the FR4 plate"
+  },
+  {
+   "path": "Plate/Vamora75_Plate_flexcut.kicad_pro",
+   "bytes": 9790,
+   "sha256": "3f98f0f0a2eebca9930b1a65ec5d5d2e68a5d51bc4455ca226cc92a20d14dbf3",
+   "role": "KiCad boards for ordering the FR4 plate"
+  },
+  {
+   "path": "Previews/assembled.png",
+   "bytes": 1026608,
+   "sha256": "a41059c6d0ade49f0c8949a4af56e4783a8aeb3c940b73f6c52082ce6667a1eb",
+   "role": "renders"
+  },
+  {
+   "path": "Previews/bottom.png",
+   "bytes": 522756,
+   "sha256": "dcd197f31cc428515d7e1e69806f8533db5fff58fa1307279c6fe516150b0b1b",
+   "role": "renders"
+  },
+  {
+   "path": "Previews/exploded.png",
+   "bytes": 1274438,
+   "sha256": "29be7755c86132facd14d91b101077b2fa5c738137ecda8762090dc4e445b716",
+   "role": "renders"
+  },
+  {
+   "path": "Previews/layout.png",
+   "bytes": 65973,
+   "sha256": "019c60378a073d5c54aae61ca151991e1e2a87f349c9beacc836d36764fc0cad",
+   "role": "renders"
+  },
+  {
+   "path": "Previews/pcb_bottom.png",
+   "bytes": 649274,
+   "sha256": "0dba5177bf11ad6f8f268f3fd89c2782edcdc68e5e590a93be1abf71209b4430",
+   "role": "renders"
+  },
+  {
+   "path": "Previews/pcb_plate.png",
+   "bytes": 1183809,
+   "sha256": "b7e2b61f02a5974878e3a14c211291cf901f84f48ab1554575f3c655f4bd49bc",
+   "role": "renders"
+  },
+  {
+   "path": "Previews/pcb_top.png",
+   "bytes": 398201,
+   "sha256": "48c5d016d48ea223cb96bee46fa55f62c0472b1802f54e753a09b4d44ea522d7",
+   "role": "renders"
+  },
+  {
+   "path": "Previews/pcb_top_switches.png",
+   "bytes": 996747,
+   "sha256": "a5644d400b9a0b9f563c01303ae22542e794fc1fb19f3a45a40508d0e704377a",
+   "role": "renders"
+  },
+  {
+   "path": "Previews/plate_top.png",
+   "bytes": 244270,
+   "sha256": "6b0487e5168324544051a775835e816e2320b12180776706f6502ecd3308e355",
+   "role": "renders"
+  },
+  {
+   "path": "Previews/rear.png",
+   "bytes": 759952,
+   "sha256": "c87e768f1454ae9e5df4acffdbb3656ecf00d46c58cd6652ca2d629b0d54d7ac",
+   "role": "renders"
+  },
+  {
+   "path": "Previews/side.png",
+   "bytes": 652892,
+   "sha256": "5a486cd7d76c58745d37dd57868b19a5f8c0e324d733395d322917dbb7457073",
+   "role": "renders"
+  },
+  {
+   "path": "Previews/top.png",
+   "bytes": 614139,
+   "sha256": "6055b46482411340384ca9043a8c0654a9fe80b962e968cb367e147de7e5a306",
+   "role": "renders"
+  },
+  {
+   "path": "README.md",
+   "bytes": 12707,
+   "sha256": "9f204db458a16934e25469af67ff37ed753b2c6341e9e95f80c6111b7566b7bd",
+   "role": "documentation"
+  },
+  {
+   "path": "Reference/Aster75_ATTRIBUTION.md",
+   "bytes": 2474,
+   "sha256": "9efe66e6f1a98b7cfe69c2c954439224a1ec7010f3ebf8bfe1426916470ad9e0",
+   "role": "input snapshots supplied with the project"
+  },
+  {
+   "path": "Reference/Aster75_build_mechanical.py",
+   "bytes": 6131,
+   "sha256": "0398ba4917349bf7c824265a9b4f953d9e34628d70501d61db5c5f6953cb3281",
+   "role": "input snapshots supplied with the project"
+  },
+  {
+   "path": "Reference/Custom_layout_2026-10-31.json",
+   "bytes": 15037,
+   "sha256": "1d9103d7d974550fe44c47d5cf5627c457fbc2c5a59663731401ad024fad4d8e",
+   "role": "input snapshots supplied with the project"
+  },
+  {
+   "path": "Reference/Keyboard75_original.kicad_pcb",
+   "bytes": 1447844,
+   "sha256": "0570c7e67210ecd111d8edef39ec67d4f30481f64713ede9abbe5023e2526e95",
+   "role": "input snapshots supplied with the project"
+  },
+  {
+   "path": "Reference/Keyboard75_original.kicad_sch",
+   "bytes": 183599,
+   "sha256": "09c915c4d5ab4f08e014e2360f298add715d50526f30888758dab7ee73750bfe",
+   "role": "input snapshots supplied with the project"
+  },
+  {
+   "path": "Reference/Keyboard75_README.md",
+   "bytes": 5283,
+   "sha256": "96ed76d2820809ac2f88aa29d2f0ebc787475e8fc2d88c8c27e213e5b126a09d",
+   "role": "input snapshots supplied with the project"
+  },
+  {
+   "path": "Reference/rev1.2_key_positions.json",
+   "bytes": 6555,
+   "sha256": "fd087085d721e3fa06b6836c07bc6f0e16762367f72bf815cc17b48abc108d8f",
+   "role": "input snapshots supplied with the project"
+  },
+  {
+   "path": "Source/build_all.py",
+   "bytes": 8870,
+   "sha256": "d99ae5a53a3ce39adb25eecf259d36ccdd1550260ec0a87871c41d7f4df69cf0",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/build_case.py",
+   "bytes": 30109,
+   "sha256": "9e04bb40319371aa5692e1d082716147c33324f3112a81a69dedd56eac857ab9",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/build_pcb.py",
+   "bytes": 3686,
+   "sha256": "1847b71ea0102abfdece81482a6406da028044d989ca688e44537ade7d1a902e",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/build_plate.py",
+   "bytes": 5166,
+   "sha256": "01d2b06190da0f86efbb6cba1914a6dcff8dfb94eb0f82ba5ca8d2cf026215f7",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/cad_mesh.py",
+   "bytes": 14558,
+   "sha256": "b1cf19a19dac1c88f9aa0fce46143d1921bf53be28c7ff46260ed3727bbfb4e5",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/check_connectivity.py",
+   "bytes": 3532,
+   "sha256": "2cc404d90dcfd495dd98f56ce981156cee3a8c839d135723792df18e69ac8f28",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/export_artwork.py",
+   "bytes": 4746,
+   "sha256": "b71b8d324fdd6e91c8c11578f5ae75a2945efe8af623f6ab72747bd0f2190479",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/export_case_drawings.py",
+   "bytes": 19476,
+   "sha256": "f11282f1ea3ef00f111310ea471a1734f159cefa66432022bd128f975276c69c",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/export_layout.py",
+   "bytes": 3809,
+   "sha256": "adbc7b9be67f5bcf50a5248ed5384bc7800f96cab1f3559ed229208dd138aadc",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/export_manufacturing.py",
+   "bytes": 12162,
+   "sha256": "1469446319cfdb14b54e16260379a596a001b23cdff9d9e2d4966b216f088215",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/extract_obstacles.py",
+   "bytes": 3172,
+   "sha256": "ffa543e0f31809ccc869aada0abdd30124b51c628fff93b8785e3a8526ca458b",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/gen_artwork.py",
+   "bytes": 9426,
+   "sha256": "7dd7875479df0b1b3a5e41df8456f170838681a8df83224aca4cfbae21f14030",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/gen_firmware.py",
+   "bytes": 16784,
+   "sha256": "d59895839a69583703fa0c78f6039d9fd1c3d5c82465f71745a308a9de003cee",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/gen_footprints.py",
+   "bytes": 6758,
+   "sha256": "ddaa28cb609876cb95ba63d81f4947dcede7d1a4a9896d2e986e2a14a28b88f3",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/gen_project.py",
+   "bytes": 3677,
+   "sha256": "25a089eafdd1d5f6a3a6d299f02aea85911986540c33b5335ba13a2e577f7dd4",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/gen_schematic.py",
+   "bytes": 26058,
+   "sha256": "47a9e3f2e3be2a31ef14354719836071557b18ed4c71b0f58b24df2a347e0a22",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/kicad_build.py",
+   "bytes": 8241,
+   "sha256": "94bcd8b9ed3d213ed8c22dfc55d8fc096b97fd0325a44db4f30becfbd89764bc",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/kicad_fp.py",
+   "bytes": 4642,
+   "sha256": "52c5d41ee6339597b9e11ffed07a9a34357ea5b1824eed5ee385a049557e2d55",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/kicad_plate.py",
+   "bytes": 2947,
+   "sha256": "a8bb6ef5c0250be8c7acdd993af448edfe9760ade0677bc0653c9ad00c94a78e",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/kicad_stackup.py",
+   "bytes": 2050,
+   "sha256": "2a145b599d7ef1b72fb6d405e877e2126d357078fbd047857d528dc36851e1d4",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/make_board_plan.py",
+   "bytes": 4318,
+   "sha256": "1e68826b426e8baa36ee4e86f0b0afbab1dbf141593f97493904c22bbe498bf7",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/make_manifest.py",
+   "bytes": 2228,
+   "sha256": "a3899f8f00dc63502ea046cbaceea08bc69b11508cbc0500e2eb1ee97681d266",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/pcb_plan.py",
+   "bytes": 6636,
+   "sha256": "9ea0dd943b879741b41019d124f05b1f8c34c61c7693b1ab12343eb651cc93a3",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/README.md",
+   "bytes": 5825,
+   "sha256": "523adf1f5c6bc17dff0a638f3fd1e72ae25724383ba1bc03c130208b7cfa8068",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/render_previews.py",
+   "bytes": 13821,
+   "sha256": "5179341e9e8227f0cc8ab6fe92f3a062a42f64bbf65678bd4c59b27c681c4940",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/requirements.txt",
+   "bytes": 444,
+   "sha256": "8687ddb3d326fb10cd258bad7f095e36bfcacc6453e0c2537a97c60bfe68ce8a",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/route_board.py",
+   "bytes": 25721,
+   "sha256": "bf33bab6ff0fde5b1b11f8a07524c7b8186afd606affd7b8c1e7df875938188a",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/router.py",
+   "bytes": 17248,
+   "sha256": "f2a3107f8553be6445244b81bfe6b7763ba07683f780a156a40d0d989b4eced1",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/sexp.py",
+   "bytes": 2476,
+   "sha256": "60e2b5fe3f072402e233fda6a21e6274b2da221e9b6d495865658db70ca0dac6",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/test_firmware.py",
+   "bytes": 6919,
+   "sha256": "90cd7b79a21eeb936329b7c9105101152fba0823df01a34ed24b573dafc621c0",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/test_revision_geometry.py",
+   "bytes": 2707,
+   "sha256": "d24e799c907cb03b9c9196ff0e751b11f8531f89cc74aadcc0a640793f165f2b",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/test_schematic_connectivity.py",
+   "bytes": 1176,
+   "sha256": "b09b72970ab6e6230e6de08f2dae36fe943969dbdb72bdbae5151f427be674a5",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/upgrade_footprints.py",
+   "bytes": 3734,
+   "sha256": "3da4c60fe5d2db3589ed0a509dbb63673c5a5b1887cd5b108488f1188d1c4d39",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/vamora_layout.py",
+   "bytes": 6220,
+   "sha256": "9d7aaadcf985512bdaf124f3577d1faab2f0f930a8276551daf5a342108dd360",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/vamora_logo.py",
+   "bytes": 7467,
+   "sha256": "8f06f2296400c474bc165b0dc0fcee435005656a3f15ca381b7fbca0fd18ff50",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "Source/vamora_mech.py",
+   "bytes": 13987,
+   "sha256": "cd8b4486c8272571acd7c4171f8db68ad63d633bee7679c659ac52c213f68a44",
+   "role": "generators (rebuild everything with build_all.py)"
+  },
+  {
+   "path": "validation/drc.json",
+   "bytes": 1471,
+   "sha256": "7064faeed518877e6466ea9107c1f555ea4a0c297cc2204238f6c3a1e1a23f23",
+   "role": "ERC / DRC / mechanical / firmware reports"
+  },
+  {
+   "path": "validation/erc.json",
+   "bytes": 1039,
+   "sha256": "b0a5ce082481eff3ebd6dd75c271f9ea3badd970225efbe0e736e9e3c438aec3",
+   "role": "ERC / DRC / mechanical / firmware reports"
+  },
+  {
+   "path": "validation/firmware.json",
+   "bytes": 1115,
+   "sha256": "d9b52fe3eaa06848c6200abb78b7e63bc6ae89ae9475ff050143cdd3a6110ed7",
+   "role": "ERC / DRC / mechanical / firmware reports"
+  },
+  {
+   "path": "validation/mechanical.json",
+   "bytes": 3972,
+   "sha256": "733a58bd0bd70f6bdc6eb40e8cf0f180dbd3a314674fa919103ce27e6d347e3c",
+   "role": "ERC / DRC / mechanical / firmware reports"
+  },
+  {
+   "path": "validation/plate.json",
+   "bytes": 320,
+   "sha256": "ee496090aaa5b710cdf4febad4647d8900dc7e4a3ffc3dbfb670facbbd752edc",
+   "role": "ERC / DRC / mechanical / firmware reports"
+  },
+  {
+   "path": "validation/revision_geometry.json",
+   "bytes": 291,
+   "sha256": "dfb5415c73a5bff3f151aa4a60d9a17361500c86699a940bacd291653de582fd",
+   "role": "ERC / DRC / mechanical / firmware reports"
+  },
+  {
+   "path": "validation/schematic.net.xml",
+   "bytes": 322716,
+   "sha256": "4eb2dbb733b684899ff5632b7dce51a559b761b6aa28ef65a1061826d858f533",
+   "role": "ERC / DRC / mechanical / firmware reports"
+  },
+  {
+   "path": "validation/STATUS.md",
+   "bytes": 1422,
+   "sha256": "575e6e0ffba5172b0a16f2ec75c6839516380ee132eb5fe67c705516e5c4c19d",
+   "role": "ERC / DRC / mechanical / firmware reports"
+  }
+ ]
+}
