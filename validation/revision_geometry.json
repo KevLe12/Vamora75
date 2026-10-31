@@ -1,0 +1,8 @@
+{
+  "result": "PASS",
+  "unchanged_non_arrow_keys": 78,
+  "arrow_positions": "Custom relative to Right Shift",
+  "usb_rear_left_x_mm": 31.5,
+  "straight_usb_pair_length_mm": 238,
+  "impedance": "Not measured: fabricator must confirm 90 ohm differential against production stackup"
+}

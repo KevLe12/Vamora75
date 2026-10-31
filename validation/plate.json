@@ -1,0 +1,16 @@
+{
+  "standard": {
+    "openings": 90,
+    "area_mm2": 29077.2,
+    "min_web_mm": 1.438,
+    "volume_mm3": 43615.7
+  },
+  "flexcut": {
+    "openings": 98,
+    "area_mm2": 28799.3,
+    "min_web_mm": 1.438,
+    "volume_mm3": 43198.9
+  },
+  "copper_to_cutout_mm": 6.19,
+  "copper_area_below_0p2mm_pct": 0.18
+}
