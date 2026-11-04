@@ -1,7 +1,0 @@
-Vamora75 rev 1.3: prototype design, not physically tested.
-Confirm 90 ohm differential USB impedance before production.
-Rear-edge F.Cu pair: 1.25 mm width, 0.20 mm gap, 238 mm straight section, over B.Cu ground.
-Board: 2 layers, 1.6 mm total, 1 oz copper. Short neck-downs at both ends.
-Check actual dielectric thickness, Dk, mask and adjacent copper.
-Return proposed stackup/geometry for review if these Gerbers do not meet the target.
-Do not silently change copper geometry or substitute stackups.
