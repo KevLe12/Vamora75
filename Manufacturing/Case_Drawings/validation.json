@@ -1,0 +1,30 @@
+{
+  "top": {
+    "source_sha256": "fd64ce92ed367e950bf3075f1295ee3850b7466868eaabe9e54e9de0bca7327c",
+    "valid_solid": true,
+    "matched_fastener_cylinders": 8,
+    "drawing_frame_bbox_mm": [
+      339.56250000000034,
+      153.82500000000113,
+      6.750000000054367
+    ],
+    "section_edges": 14,
+    "sheet": "A3",
+    "orthographic_scale": "1:2",
+    "dimension_factor": 2
+  },
+  "bottom": {
+    "source_sha256": "0714d1e87c41d87660163f93b4391fc55ee7d0f553e6bca28cf299a8a00de9ab",
+    "valid_solid": true,
+    "matched_fastener_cylinders": 8,
+    "drawing_frame_bbox_mm": [
+      339.56250020000004,
+      153.82500020002703,
+      30.45494211178463
+    ],
+    "section_edges": 0,
+    "sheet": "A3",
+    "orthographic_scale": "1:2",
+    "dimension_factor": 2
+  }
+}
