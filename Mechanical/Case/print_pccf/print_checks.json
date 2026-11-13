@@ -1,0 +1,52 @@
+{
+  "printer": "Prusa CORE One L",
+  "build_volume_mm": [
+    300,
+    300,
+    330
+  ],
+  "parts": [
+    {
+      "file": "Vamora75_case_bottom_L.stl",
+      "bounds_mm": [
+        214.75,
+        156.10957205295563,
+        30.350479125976562
+      ],
+      "watertight": true,
+      "source_sha256": "221cb1b301c217b83abbc9a81bde545ef5b9fd98df69f5f26466606a07a1b89c"
+    },
+    {
+      "file": "Vamora75_case_bottom_R.stl",
+      "bounds_mm": [
+        124.8125,
+        156.10957205295563,
+        30.350479125976573
+      ],
+      "watertight": true,
+      "source_sha256": "dfa7f9acaf2d0c9051d3a3ceb865c2d2ec86d8aa989ca2c1cbe11485bf2e41fa"
+    },
+    {
+      "file": "Vamora75_case_top_L.stl",
+      "bounds_mm": [
+        139.78125,
+        153.82499838665547,
+        6.7500038186793745
+      ],
+      "watertight": true,
+      "source_sha256": "cb962e5a68b14cb3146e26516805a7221020274ec3dc9ccbc97adf6a9571e28e"
+    },
+    {
+      "file": "Vamora75_case_top_R.stl",
+      "bounds_mm": [
+        199.78125,
+        153.82499838665547,
+        6.7500038186793745
+      ],
+      "watertight": true,
+      "source_sha256": "90cbdfd384b3d4cadcbeaf61882b918b019a30ac8c7c8ef4a71d512caec30021"
+    }
+  ],
+  "fit_coupon": "Left to right along 42 mm edge: 3.9, 4.0, 4.1 mm blind bores; 5 mm depth",
+  "status": "Geometry fit checked; not sliced or physically printed"
+}
