@@ -212,6 +212,5 @@ Footprints and 3D models for the switches, sockets, stabilisers and several comp
 Joe Scotto's [ScottoKicad](https://github.com/joe-scotto/scottokeebs). Third-party data and licences:
 [ATTRIBUTION.md](ATTRIBUTION.md) and [Licenses/](Licenses).
 
-Repository upload instructions: [GITHUB_UPLOAD.md](GITHUB_UPLOAD.md). Local archives
-and build intermediates are omitted from the GitHub snapshot. No project-wide
+Local archives and build intermediates are omitted from the GitHub snapshot. No project-wide
 license has been selected for the team's original work.
