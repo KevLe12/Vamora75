@@ -1,0 +1,8 @@
+Vamora75 rev 1.7: prototype design, not physically tested.
+Confirm 90 ohm differential USB impedance before production.
+B.Cu short USB pair: 0.2276 mm width, 0.1501 mm gap, 0.1999 mm coplanar ground gap; In2.Cu ground reference.
+Board: 4 layers, JLC04161H-7628, 1.6 mm nominal, outer 1 oz / inner 0.5 oz, ENIG.
+Order 90 ohms differential +/-10% controlled impedance; request supplier review and coupon test report.
+Check actual dielectric thickness, Dk, mask and adjacent copper.
+Return proposed stackup/geometry for review if these Gerbers do not meet the target.
+Do not silently change copper geometry or substitute stackups.

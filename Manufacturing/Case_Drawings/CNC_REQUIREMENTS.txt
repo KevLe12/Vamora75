@@ -1,0 +1,44 @@
+VAMORA75 - CNC REQUIREMENTS / D5 - SHEET 3 OF 3
+Applies to both D5 STEP parts and part drawings. Dimensions in mm; no scale.
+MATERIAL / FINISH / QUANTITY
+6061-T6 aluminum. As machined and deburred; no anodizing or coating in this revision.
+Three matched pairs total. Make and inspect one pair first, then repeat after assembly fit is confirmed.
+GENERAL TOLERANCES AND DATUMS
+Unspecified dimensions +/-0.10; angles +/-0.2 deg. Machined surfaces Ra 3.2 um or better.
+Datum A: flat case mating face. B: left outside plane. C: front outside plane, in plate-parallel axes.
+A flatness 0.10. X from B, Y from C; +Z from bottom toward top, normal to A. Desk is at 6 deg to A.
+Hole coordinate table below applies to BOTH halves, viewed from above; do not mirror the bottom part.
+Screw center X/Y +/-0.03 to B/C. BOOT center X/Y +/-0.10. Hole axes normal to A within 0.2 deg.
+Gasket seat depth 2.35 +/-0.05 from A on each half. Keep mating faces and seats free of burrs.
+TOP: BLIND THREADS - REQUIRED SECONDARY OPERATION
+8x M3 x 0.5-6H. Full thread form from 0.40 to at least 5.00 into top from A; thread-mill blind holes.
+STEP models DIA 2.50 pilot, FLAT depth 5.70 +/-0.05 from A; entry DIA 3.30 x 0.40 deep chamfer.
+Top rim thickness 6.75 +0.10/-0.00. Max bore depth 5.75 incl. any tool tip; intact roof >=1.00.
+Threads are specified here, not modeled as helices. Verify with M3-6H gauges and depth inspection.
+BOTTOM: CLEARANCE / COUNTERBORES
+8x DIA 3.40 +0.10/-0 through to A. DIA 6.50 +0.10/-0 counterbores open from desk underside.
+Head bearing seat 3.50 +/-0.05 below A, measured along screw axis; perpendicular to that axis.
+Use 8x M3 x 8 ISO 4762 screws per keyboard, head DIA 5.5 x 3, 2.5 mm hex; no washers.
+Accept screw under-head length 7.80-8.20. Nominal insertion 4.50; worst-case 4.25-4.75.
+BOOT / USB / EDGE DETAILS
+BOOT DIA 3.00 +0.10/-0 through floor, X=187.000, Y=20.325.
+BOOT axis normal to A (6 deg from desk normal). Deburr; access with a blunt 1 mm nonconductive probe.
+USB rear opening 14 x 8, R3.5; center X=37.000, Z=-7.560 relative to A.
+Keep all STEP reliefs and R0.5 gasket-pocket corners. Break other sharp edges 0.10-0.20 maximum.
+Do not enlarge pocket radii, remove thin bridges, pocket the floor or change the logo without a revised drawing.
+LAYER STACK / FIRST-ARTICLE INSPECTION
+PCB 1.60; plate 1.50; plate foam 3.50; bottom foam 3.00. Use supplied foam DXFs including USB/BOOT cutouts.
+16 gaskets 20 x 4.5 x 2.0 (total including adhesive), installed 1.60 per side of each of 8 tabs.
+PCB underside to floor 5.50; nominal socket-to-bottom-foam gap 0.65. Foam must not preload PCB.
+Inspect 8 threads, hole positions, seat depths, roof, burrs and flatness; dry-fit screws before fitting PCB.
+Assemble one pair: halves meet without force; check USB insertion, BOOT press/release and all keys/stabilisers.
+Digital checks are not a physical fit test. Verify gasket compression and screw engagement on the first pair.
+SCREW COORDINATES (X, Y) FROM B/C; BOTH HALVES
+1: X 5.500   Y 5.500
+2: X 334.062   Y 5.500
+3: X 5.500   Y 148.325
+4: X 334.062   Y 148.325
+5: X 105.081   Y 5.500
+6: X 234.481   Y 5.500
+7: X 105.081   Y 148.325
+8: X 234.481   Y 148.325

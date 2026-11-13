@@ -1,0 +1,32 @@
+{
+  "top": {
+    "source_sha256": "b08314ce46a62e30be8fb73b4c0d735174a95fa922e2e7d186d380f01f7a969c",
+    "valid_solid": true,
+    "matched_fastener_cylinders_and_depths": 8,
+    "cnc_revision": "D5",
+    "drawing_frame_bbox_mm": [
+      339.56250000000034,
+      153.82500000000113,
+      6.750000000054367
+    ],
+    "section_edges": 18,
+    "sheet": "A3",
+    "orthographic_scale": "1:2",
+    "dimension_factor": 2
+  },
+  "bottom": {
+    "source_sha256": "af39ba830c5d16ceca5265f708e19e9ac0d47c047e77c7055e9d46eff420008b",
+    "valid_solid": true,
+    "matched_fastener_cylinders_and_depths": 8,
+    "cnc_revision": "D5",
+    "drawing_frame_bbox_mm": [
+      339.56250020000004,
+      153.82500020002703,
+      30.45494211178463
+    ],
+    "section_edges": 0,
+    "sheet": "A3",
+    "orthographic_scale": "1:2",
+    "dimension_factor": 2
+  }
+}
