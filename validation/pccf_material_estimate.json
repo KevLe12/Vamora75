@@ -1,0 +1,52 @@
+{
+  "method": "Section integration at 0.3 mm, 2.6 mm walls, 1.2 mm skins; sparse core at 20/30%. Excludes supports/brim/purge. Not a slicer.",
+  "density_g_cm3": 1.22,
+  "parts": [
+    {
+      "part": "Vamora75_case_bottom_L",
+      "print_bounds_mm": [
+        214.75,
+        156.10957205295563,
+        30.350479125976562
+      ],
+      "solid_cm3": 429.53304514696396,
+      "estimated_20pct_g": 231.6367627188823,
+      "estimated_30pct_g": 268.1894350835509
+    },
+    {
+      "part": "Vamora75_case_bottom_R",
+      "print_bounds_mm": [
+        124.8125,
+        156.10957205295563,
+        30.350479125976573
+      ],
+      "solid_cm3": 256.1052533248505,
+      "estimated_20pct_g": 143.26600355798135,
+      "estimated_30pct_g": 164.4169022289711
+    },
+    {
+      "part": "Vamora75_case_top_L",
+      "print_bounds_mm": [
+        139.78125,
+        153.82499838665547,
+        6.7500038186793745
+      ],
+      "solid_cm3": 42.71496167985204,
+      "estimated_20pct_g": 38.33121861316148,
+      "estimated_30pct_g": 40.196447092492434
+    },
+    {
+      "part": "Vamora75_case_top_R",
+      "print_bounds_mm": [
+        199.78125,
+        153.82499838665547,
+        6.7500038186793745
+      ],
+      "solid_cm3": 60.070903982062475,
+      "estimated_20pct_g": 55.08906179179802,
+      "estimated_30pct_g": 57.56321152251539
+    }
+  ],
+  "total_20pct_g": 468.32304668182314,
+  "total_30pct_g": 530.3659959275299
+}

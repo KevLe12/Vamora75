@@ -1,0 +1,3197 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-12T22:46:10",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "Vamora75.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "Footprint ST1",
+                    "pos": {
+                        "x": 309.7,
+                        "y": 116.3375
+                    },
+                    "uuid": "03c331f9-cea5-4593-af58-0afc1a7c6b22"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "Footprint ST3",
+                    "pos": {
+                        "x": 64.43125,
+                        "y": 173.4875
+                    },
+                    "uuid": "b8103808-bf16-4eef-867f-edb6c6678835"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "Footprint ST2",
+                    "pos": {
+                        "x": 307.31875,
+                        "y": 154.4375
+                    },
+                    "uuid": "b871a2e7-21c1-4b26-90e9-3f8950859620"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "Footprint ST4",
+                    "pos": {
+                        "x": 173.96875,
+                        "y": 192.5375
+                    },
+                    "uuid": "c0185885-d3de-4c12-afcc-5a959e0dff01"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad SH [GND] of J1",
+                    "pos": {
+                        "x": 69.32,
+                        "y": 86.53
+                    },
+                    "uuid": "85fe47e2-ce01-4c40-bfe3-0041989793b8"
+                },
+                {
+                    "description": "Footprint SW2",
+                    "pos": {
+                        "x": 76.3375,
+                        "y": 92.525
+                    },
+                    "uuid": "020ec93a-f376-4631-9442-e5c1dae7ec1a"
+                }
+            ],
+            "severity": "warning",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads (expected 'Through hole'; actual 'SMD')",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 65.0,
+                        "y": 83.4
+                    },
+                    "uuid": "ce6349d5-1070-41d0-aa65-52034a7f3183"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_type_mismatch"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW46 on F.Silkscreen",
+                    "pos": {
+                        "x": 78.7625,
+                        "y": 161.5375
+                    },
+                    "uuid": "c5c6fdf6-278d-4643-8a40-11339ec6f4f9"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 90.9425,
+                        "y": 161.521
+                    },
+                    "uuid": "ff5d89cf-7d8a-456d-85e9-7e6120b458d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW46 on F.Silkscreen",
+                    "pos": {
+                        "x": 92.9625,
+                        "y": 161.5375
+                    },
+                    "uuid": "dd21808a-7418-432e-9d16-75993c9ffc19"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 90.9425,
+                        "y": 161.521
+                    },
+                    "uuid": "ff5d89cf-7d8a-456d-85e9-7e6120b458d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW47 on F.Silkscreen",
+                    "pos": {
+                        "x": 97.8125,
+                        "y": 147.3375
+                    },
+                    "uuid": "82655f31-a555-4ecc-9c63-d1755ca81332"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 90.9425,
+                        "y": 161.521
+                    },
+                    "uuid": "ff5d89cf-7d8a-456d-85e9-7e6120b458d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW47 on F.Silkscreen",
+                    "pos": {
+                        "x": 97.8125,
+                        "y": 161.5375
+                    },
+                    "uuid": "be8684b2-a421-470a-ae28-130de91e3682"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 90.9425,
+                        "y": 161.521
+                    },
+                    "uuid": "ff5d89cf-7d8a-456d-85e9-7e6120b458d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW32 on F.Silkscreen",
+                    "pos": {
+                        "x": 93.05,
+                        "y": 142.4875
+                    },
+                    "uuid": "45837dd9-e268-474e-83d6-18c56d165531"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 90.9425,
+                        "y": 161.521
+                    },
+                    "uuid": "ff5d89cf-7d8a-456d-85e9-7e6120b458d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW47 on F.Silkscreen",
+                    "pos": {
+                        "x": 112.0125,
+                        "y": 147.3375
+                    },
+                    "uuid": "a6fdde3c-0911-4786-b725-346e6ce411a7"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 90.9425,
+                        "y": 161.521
+                    },
+                    "uuid": "ff5d89cf-7d8a-456d-85e9-7e6120b458d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW46 on F.Silkscreen",
+                    "pos": {
+                        "x": 92.9625,
+                        "y": 147.3375
+                    },
+                    "uuid": "30feef3f-8f10-4edb-8bff-828b7b138563"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 90.9425,
+                        "y": 161.521
+                    },
+                    "uuid": "ff5d89cf-7d8a-456d-85e9-7e6120b458d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 88.4025,
+                        "y": 153.88
+                    },
+                    "uuid": "c3f3a931-34e7-424f-8a13-5bed05ca06d8"
+                },
+                {
+                    "description": "Segment of SW46 on F.Silkscreen",
+                    "pos": {
+                        "x": 78.7625,
+                        "y": 161.5375
+                    },
+                    "uuid": "c5c6fdf6-278d-4643-8a40-11339ec6f4f9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW46 on F.Silkscreen",
+                    "pos": {
+                        "x": 92.9625,
+                        "y": 147.3375
+                    },
+                    "uuid": "30feef3f-8f10-4edb-8bff-828b7b138563"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 86.18,
+                        "y": 127.714
+                    },
+                    "uuid": "c4292c15-3958-4fd5-a5d3-c35faa2363cf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW31 on F.Silkscreen",
+                    "pos": {
+                        "x": 74.0,
+                        "y": 142.4875
+                    },
+                    "uuid": "0a24180a-9bd4-4554-81ed-90cb894e854b"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 86.18,
+                        "y": 127.714
+                    },
+                    "uuid": "c4292c15-3958-4fd5-a5d3-c35faa2363cf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW31 on F.Silkscreen",
+                    "pos": {
+                        "x": 88.2,
+                        "y": 128.2875
+                    },
+                    "uuid": "bd2f443e-bf38-41fb-b1b8-f441df6b9981"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 86.18,
+                        "y": 127.714
+                    },
+                    "uuid": "c4292c15-3958-4fd5-a5d3-c35faa2363cf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW46 on F.Silkscreen",
+                    "pos": {
+                        "x": 92.9625,
+                        "y": 147.3375
+                    },
+                    "uuid": "30feef3f-8f10-4edb-8bff-828b7b138563"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 86.6755,
+                        "y": 151.959999
+                    },
+                    "uuid": "a277b962-48ed-45d1-9927-0c7105b0c96b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW31 on F.Silkscreen",
+                    "pos": {
+                        "x": 74.0,
+                        "y": 142.4875
+                    },
+                    "uuid": "0a24180a-9bd4-4554-81ed-90cb894e854b"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 86.6755,
+                        "y": 151.959999
+                    },
+                    "uuid": "a277b962-48ed-45d1-9927-0c7105b0c96b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW31 on F.Silkscreen",
+                    "pos": {
+                        "x": 88.2,
+                        "y": 142.4875
+                    },
+                    "uuid": "0d4e6e1f-9a5e-40f9-a6b9-058af7b61b8a"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 86.6755,
+                        "y": 151.959999
+                    },
+                    "uuid": "a277b962-48ed-45d1-9927-0c7105b0c96b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 86.6755,
+                        "y": 151.959999
+                    },
+                    "uuid": "a277b962-48ed-45d1-9927-0c7105b0c96b"
+                },
+                {
+                    "description": "Segment of SW31 on F.Silkscreen",
+                    "pos": {
+                        "x": 88.2,
+                        "y": 128.2875
+                    },
+                    "uuid": "bd2f443e-bf38-41fb-b1b8-f441df6b9981"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW32 on F.Silkscreen",
+                    "pos": {
+                        "x": 93.05,
+                        "y": 142.4875
+                    },
+                    "uuid": "45837dd9-e268-474e-83d6-18c56d165531"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 102.69,
+                        "y": 150.4795
+                    },
+                    "uuid": "c60deb53-8e04-4d04-a8cf-5349c9aaf6df"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW32 on F.Silkscreen",
+                    "pos": {
+                        "x": 107.25,
+                        "y": 128.2875
+                    },
+                    "uuid": "bbadf93f-ec45-4f4c-a983-83277f99224d"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 102.69,
+                        "y": 150.4795
+                    },
+                    "uuid": "c60deb53-8e04-4d04-a8cf-5349c9aaf6df"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW47 on F.Silkscreen",
+                    "pos": {
+                        "x": 112.0125,
+                        "y": 147.3375
+                    },
+                    "uuid": "a6fdde3c-0911-4786-b725-346e6ce411a7"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 102.69,
+                        "y": 150.4795
+                    },
+                    "uuid": "c60deb53-8e04-4d04-a8cf-5349c9aaf6df"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 105.23,
+                        "y": 145.9315
+                    },
+                    "uuid": "13cf7a79-c2ce-405a-be15-5f00a8b82394"
+                },
+                {
+                    "description": "Segment of SW32 on F.Silkscreen",
+                    "pos": {
+                        "x": 93.05,
+                        "y": 142.4875
+                    },
+                    "uuid": "45837dd9-e268-474e-83d6-18c56d165531"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 105.23,
+                        "y": 145.9315
+                    },
+                    "uuid": "13cf7a79-c2ce-405a-be15-5f00a8b82394"
+                },
+                {
+                    "description": "Segment of SW32 on F.Silkscreen",
+                    "pos": {
+                        "x": 107.25,
+                        "y": 128.2875
+                    },
+                    "uuid": "bbadf93f-ec45-4f4c-a983-83277f99224d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 105.23,
+                        "y": 145.9315
+                    },
+                    "uuid": "13cf7a79-c2ce-405a-be15-5f00a8b82394"
+                },
+                {
+                    "description": "Segment of SW32 on F.Silkscreen",
+                    "pos": {
+                        "x": 107.25,
+                        "y": 142.4875
+                    },
+                    "uuid": "14150742-fedf-48b4-ad7a-3368f8f0a4b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW32 on F.Silkscreen",
+                    "pos": {
+                        "x": 107.25,
+                        "y": 128.2875
+                    },
+                    "uuid": "bbadf93f-ec45-4f4c-a983-83277f99224d"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 102.69,
+                        "y": 127.714
+                    },
+                    "uuid": "e520a11a-aade-42aa-a8c8-9f90785aa780"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW35 on F.Silkscreen",
+                    "pos": {
+                        "x": 164.4,
+                        "y": 142.4875
+                    },
+                    "uuid": "4f9312a3-bf79-4692-aaa2-83007c35c1c9"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 151.1785,
+                        "y": 146.5245
+                    },
+                    "uuid": "51c3ce28-e6e0-4227-a8d8-02865db5851e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 151.1785,
+                        "y": 146.5245
+                    },
+                    "uuid": "51c3ce28-e6e0-4227-a8d8-02865db5851e"
+                },
+                {
+                    "description": "Segment of SW36 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.25,
+                        "y": 128.2875
+                    },
+                    "uuid": "f668cfff-3cbc-4ed8-9a7e-adc8018701ec"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW36 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.25,
+                        "y": 142.4875
+                    },
+                    "uuid": "0666b788-b63b-485b-ad7b-94118e11bf50"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 151.1785,
+                        "y": 146.5245
+                    },
+                    "uuid": "51c3ce28-e6e0-4227-a8d8-02865db5851e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 151.1785,
+                        "y": 146.5245
+                    },
+                    "uuid": "51c3ce28-e6e0-4227-a8d8-02865db5851e"
+                },
+                {
+                    "description": "Segment of SW50 on F.Silkscreen",
+                    "pos": {
+                        "x": 154.9625,
+                        "y": 161.5375
+                    },
+                    "uuid": "68c9bf2e-e5ec-427d-955f-d336dca7fe14"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 151.1785,
+                        "y": 146.5245
+                    },
+                    "uuid": "51c3ce28-e6e0-4227-a8d8-02865db5851e"
+                },
+                {
+                    "description": "Segment of SW50 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.1625,
+                        "y": 147.3375
+                    },
+                    "uuid": "97acf889-9e83-40fb-942f-cdcde6a4c69c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 151.1785,
+                        "y": 146.5245
+                    },
+                    "uuid": "51c3ce28-e6e0-4227-a8d8-02865db5851e"
+                },
+                {
+                    "description": "Segment of SW51 on F.Silkscreen",
+                    "pos": {
+                        "x": 174.0125,
+                        "y": 147.3375
+                    },
+                    "uuid": "e308e2bc-d647-44c1-a5b2-b50ac75f5fe4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW35 on F.Silkscreen",
+                    "pos": {
+                        "x": 150.2,
+                        "y": 142.4875
+                    },
+                    "uuid": "18adf1ca-457b-4578-a090-992c0c8e2e36"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 151.1785,
+                        "y": 146.5245
+                    },
+                    "uuid": "51c3ce28-e6e0-4227-a8d8-02865db5851e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 151.1785,
+                        "y": 146.5245
+                    },
+                    "uuid": "51c3ce28-e6e0-4227-a8d8-02865db5851e"
+                },
+                {
+                    "description": "Segment of SW49 on F.Silkscreen",
+                    "pos": {
+                        "x": 135.9125,
+                        "y": 161.5375
+                    },
+                    "uuid": "7fa6a7af-deee-4377-a12b-b580d71e3a05"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW49 on F.Silkscreen",
+                    "pos": {
+                        "x": 150.1125,
+                        "y": 161.5375
+                    },
+                    "uuid": "34e10c45-a04b-4ffc-885f-72194e981a04"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 151.1785,
+                        "y": 146.5245
+                    },
+                    "uuid": "51c3ce28-e6e0-4227-a8d8-02865db5851e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 151.1785,
+                        "y": 146.5245
+                    },
+                    "uuid": "51c3ce28-e6e0-4227-a8d8-02865db5851e"
+                },
+                {
+                    "description": "Segment of SW35 on F.Silkscreen",
+                    "pos": {
+                        "x": 150.2,
+                        "y": 128.2875
+                    },
+                    "uuid": "ba26a7aa-252b-49d5-8bc1-81c3d1d329ac"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 151.1785,
+                        "y": 146.5245
+                    },
+                    "uuid": "51c3ce28-e6e0-4227-a8d8-02865db5851e"
+                },
+                {
+                    "description": "Segment of SW49 on F.Silkscreen",
+                    "pos": {
+                        "x": 150.1125,
+                        "y": 147.3375
+                    },
+                    "uuid": "f531c7a7-8f96-4435-8692-f5f9ea8f9abe"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW51 on F.Silkscreen",
+                    "pos": {
+                        "x": 174.0125,
+                        "y": 161.5375
+                    },
+                    "uuid": "31755cb2-3aef-43d9-b468-4cef72c5d7b9"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 151.1785,
+                        "y": 146.5245
+                    },
+                    "uuid": "51c3ce28-e6e0-4227-a8d8-02865db5851e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW51 on F.Silkscreen",
+                    "pos": {
+                        "x": 188.2125,
+                        "y": 147.3375
+                    },
+                    "uuid": "08f93a0a-a657-480a-ba25-1293144629c5"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 151.1785,
+                        "y": 146.5245
+                    },
+                    "uuid": "51c3ce28-e6e0-4227-a8d8-02865db5851e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 122.615,
+                        "y": 146.233
+                    },
+                    "uuid": "6f7f0cda-e19e-465a-90a0-55b5a9d0a030"
+                },
+                {
+                    "description": "Segment of SW48 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.8625,
+                        "y": 147.3375
+                    },
+                    "uuid": "7d349654-c0d3-4436-8aed-d190ee54d2e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW48 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.8625,
+                        "y": 161.5375
+                    },
+                    "uuid": "57edea7e-6fa6-4188-ae7f-428f343e8523"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 122.615,
+                        "y": 146.233
+                    },
+                    "uuid": "6f7f0cda-e19e-465a-90a0-55b5a9d0a030"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 122.615,
+                        "y": 146.233
+                    },
+                    "uuid": "6f7f0cda-e19e-465a-90a0-55b5a9d0a030"
+                },
+                {
+                    "description": "Segment of SW48 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.0625,
+                        "y": 147.3375
+                    },
+                    "uuid": "be98e52b-5644-4cf1-9163-b14ee0e9343f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW48 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.8625,
+                        "y": 161.5375
+                    },
+                    "uuid": "57edea7e-6fa6-4188-ae7f-428f343e8523"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 122.615,
+                        "y": 142.969
+                    },
+                    "uuid": "c9c8d84d-ecb8-4130-980d-bcd65947d857"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW48 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.0625,
+                        "y": 147.3375
+                    },
+                    "uuid": "be98e52b-5644-4cf1-9163-b14ee0e9343f"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 122.615,
+                        "y": 142.969
+                    },
+                    "uuid": "c9c8d84d-ecb8-4130-980d-bcd65947d857"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW33 on F.Silkscreen",
+                    "pos": {
+                        "x": 112.1,
+                        "y": 142.4875
+                    },
+                    "uuid": "86031474-4400-4e43-b7be-f1c7bd71cdbb"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 122.615,
+                        "y": 142.969
+                    },
+                    "uuid": "c9c8d84d-ecb8-4130-980d-bcd65947d857"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW33 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.3,
+                        "y": 142.4875
+                    },
+                    "uuid": "484f7bf7-7e53-4b1e-9cef-cf62d64c4182"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 122.615,
+                        "y": 142.969
+                    },
+                    "uuid": "c9c8d84d-ecb8-4130-980d-bcd65947d857"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW48 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.8625,
+                        "y": 161.5375
+                    },
+                    "uuid": "57edea7e-6fa6-4188-ae7f-428f343e8523"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 129.0425,
+                        "y": 161.521
+                    },
+                    "uuid": "841dbacb-43ee-4672-b152-d1f284311abf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 129.0425,
+                        "y": 161.521
+                    },
+                    "uuid": "841dbacb-43ee-4672-b152-d1f284311abf"
+                },
+                {
+                    "description": "Segment of SW48 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.0625,
+                        "y": 147.3375
+                    },
+                    "uuid": "be98e52b-5644-4cf1-9163-b14ee0e9343f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 129.0425,
+                        "y": 161.521
+                    },
+                    "uuid": "841dbacb-43ee-4672-b152-d1f284311abf"
+                },
+                {
+                    "description": "Segment of SW48 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.0625,
+                        "y": 161.5375
+                    },
+                    "uuid": "89b0835a-689b-4149-94b6-af4ba370a56f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW49 on F.Silkscreen",
+                    "pos": {
+                        "x": 135.9125,
+                        "y": 161.5375
+                    },
+                    "uuid": "7fa6a7af-deee-4377-a12b-b580d71e3a05"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 148.0925,
+                        "y": 137.3795
+                    },
+                    "uuid": "b80ba3f6-1108-4703-bf4c-f98cbee60d0a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 148.0925,
+                        "y": 137.3795
+                    },
+                    "uuid": "b80ba3f6-1108-4703-bf4c-f98cbee60d0a"
+                },
+                {
+                    "description": "Segment of SW49 on F.Silkscreen",
+                    "pos": {
+                        "x": 150.1125,
+                        "y": 147.3375
+                    },
+                    "uuid": "f531c7a7-8f96-4435-8692-f5f9ea8f9abe"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW49 on F.Silkscreen",
+                    "pos": {
+                        "x": 135.9125,
+                        "y": 147.3375
+                    },
+                    "uuid": "6e4669e8-e80e-4c0e-99a4-66a356644ecf"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 129.0425,
+                        "y": 161.521
+                    },
+                    "uuid": "841dbacb-43ee-4672-b152-d1f284311abf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW49 on F.Silkscreen",
+                    "pos": {
+                        "x": 135.9125,
+                        "y": 161.5375
+                    },
+                    "uuid": "7fa6a7af-deee-4377-a12b-b580d71e3a05"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 145.5525,
+                        "y": 154.995
+                    },
+                    "uuid": "89c09de5-9449-4ba7-bbdf-3192b7bc78a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW49 on F.Silkscreen",
+                    "pos": {
+                        "x": 135.9125,
+                        "y": 161.5375
+                    },
+                    "uuid": "7fa6a7af-deee-4377-a12b-b580d71e3a05"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 129.0425,
+                        "y": 161.521
+                    },
+                    "uuid": "841dbacb-43ee-4672-b152-d1f284311abf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 129.0425,
+                        "y": 161.521
+                    },
+                    "uuid": "841dbacb-43ee-4672-b152-d1f284311abf"
+                },
+                {
+                    "description": "Segment of SW34 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.15,
+                        "y": 142.4875
+                    },
+                    "uuid": "8fdc38f3-140b-4e53-924c-42293a45c8c6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW34 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.15,
+                        "y": 128.2875
+                    },
+                    "uuid": "72e0307d-91cd-4290-ba6e-aba5c5afc958"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 129.0425,
+                        "y": 161.521
+                    },
+                    "uuid": "841dbacb-43ee-4672-b152-d1f284311abf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 129.0425,
+                        "y": 161.521
+                    },
+                    "uuid": "841dbacb-43ee-4672-b152-d1f284311abf"
+                },
+                {
+                    "description": "Segment of SW49 on F.Silkscreen",
+                    "pos": {
+                        "x": 150.1125,
+                        "y": 147.3375
+                    },
+                    "uuid": "f531c7a7-8f96-4435-8692-f5f9ea8f9abe"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 145.5525,
+                        "y": 137.3795
+                    },
+                    "uuid": "2125b378-615b-49f1-96c3-c28fcd4c638b"
+                },
+                {
+                    "description": "Segment of SW34 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.15,
+                        "y": 142.4875
+                    },
+                    "uuid": "8fdc38f3-140b-4e53-924c-42293a45c8c6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 119.9005,
+                        "y": 137.899
+                    },
+                    "uuid": "0c91aea0-f3c3-4085-9dc9-e4905240f111"
+                },
+                {
+                    "description": "Segment of SW33 on F.Silkscreen",
+                    "pos": {
+                        "x": 112.1,
+                        "y": 142.4875
+                    },
+                    "uuid": "86031474-4400-4e43-b7be-f1c7bd71cdbb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 145.5525,
+                        "y": 137.3795
+                    },
+                    "uuid": "2125b378-615b-49f1-96c3-c28fcd4c638b"
+                },
+                {
+                    "description": "Segment of SW34 on F.Silkscreen",
+                    "pos": {
+                        "x": 145.35,
+                        "y": 142.4875
+                    },
+                    "uuid": "8361ddc1-9df8-4ae1-a768-b44d964870ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 145.5525,
+                        "y": 137.3795
+                    },
+                    "uuid": "2125b378-615b-49f1-96c3-c28fcd4c638b"
+                },
+                {
+                    "description": "Segment of SW49 on F.Silkscreen",
+                    "pos": {
+                        "x": 150.1125,
+                        "y": 147.3375
+                    },
+                    "uuid": "f531c7a7-8f96-4435-8692-f5f9ea8f9abe"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW31 on F.Silkscreen",
+                    "pos": {
+                        "x": 74.0,
+                        "y": 142.4875
+                    },
+                    "uuid": "0a24180a-9bd4-4554-81ed-90cb894e854b"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 83.64,
+                        "y": 135.945
+                    },
+                    "uuid": "bfdf9d68-65de-48ff-862b-747b4e74a04e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW46 on F.Silkscreen",
+                    "pos": {
+                        "x": 92.9625,
+                        "y": 147.3375
+                    },
+                    "uuid": "30feef3f-8f10-4edb-8bff-828b7b138563"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 88.4025,
+                        "y": 153.88
+                    },
+                    "uuid": "c3f3a931-34e7-424f-8a13-5bed05ca06d8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW31 on F.Silkscreen",
+                    "pos": {
+                        "x": 88.2,
+                        "y": 128.2875
+                    },
+                    "uuid": "bd2f443e-bf38-41fb-b1b8-f441df6b9981"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 83.64,
+                        "y": 127.714
+                    },
+                    "uuid": "d3fccf1b-d3e2-486b-bc26-4c3b63b38c06"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW43 on F.Silkscreen",
+                    "pos": {
+                        "x": 321.5625,
+                        "y": 128.2875
+                    },
+                    "uuid": "00c305ec-0382-41a1-9aee-3d88e4f93378"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 309.859,
+                        "y": 130.8765
+                    },
+                    "uuid": "23b68c54-fb72-4820-9ed2-a2f4bb72ca91"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW43 on F.Silkscreen",
+                    "pos": {
+                        "x": 321.5625,
+                        "y": 128.2875
+                    },
+                    "uuid": "00c305ec-0382-41a1-9aee-3d88e4f93378"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 312.399,
+                        "y": 131.6365
+                    },
+                    "uuid": "f62674c8-c9cd-4c66-ac73-d19cfece8dd4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW43 on F.Silkscreen",
+                    "pos": {
+                        "x": 307.3625,
+                        "y": 142.4875
+                    },
+                    "uuid": "149f6584-fc96-4bb6-bd4c-3eab3146d994"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 312.399,
+                        "y": 160.03
+                    },
+                    "uuid": "edb1317f-e582-4d32-9a58-b3c7bfa5aed4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW57 on F.Silkscreen",
+                    "pos": {
+                        "x": 314.41875,
+                        "y": 147.3375
+                    },
+                    "uuid": "eb0dd2f0-b71a-44aa-9af8-b8e82ba5c8e3"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 312.399,
+                        "y": 160.03
+                    },
+                    "uuid": "edb1317f-e582-4d32-9a58-b3c7bfa5aed4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW57 on F.Silkscreen",
+                    "pos": {
+                        "x": 314.41875,
+                        "y": 161.5375
+                    },
+                    "uuid": "4257e293-e7fb-4c6a-8562-bc70413a8019"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 312.399,
+                        "y": 160.03
+                    },
+                    "uuid": "edb1317f-e582-4d32-9a58-b3c7bfa5aed4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW43 on F.Silkscreen",
+                    "pos": {
+                        "x": 307.3625,
+                        "y": 142.4875
+                    },
+                    "uuid": "149f6584-fc96-4bb6-bd4c-3eab3146d994"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 309.859,
+                        "y": 161.2275
+                    },
+                    "uuid": "e149477d-7638-4ed6-9c2c-676a799aa88e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 309.859,
+                        "y": 161.2275
+                    },
+                    "uuid": "e149477d-7638-4ed6-9c2c-676a799aa88e"
+                },
+                {
+                    "description": "Segment of SW57 on F.Silkscreen",
+                    "pos": {
+                        "x": 314.41875,
+                        "y": 147.3375
+                    },
+                    "uuid": "eb0dd2f0-b71a-44aa-9af8-b8e82ba5c8e3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW43 on F.Silkscreen",
+                    "pos": {
+                        "x": 307.3625,
+                        "y": 128.2875
+                    },
+                    "uuid": "b137d097-f1f4-47f5-b4de-3b815a5c6689"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 309.859,
+                        "y": 140.364
+                    },
+                    "uuid": "f10aa565-a931-47c0-8331-8f97ca32b2cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW56 on F.Silkscreen",
+                    "pos": {
+                        "x": 269.2625,
+                        "y": 161.5375
+                    },
+                    "uuid": "00233b32-ea6f-467b-8a93-a379590162a1"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 278.9025,
+                        "y": 154.995
+                    },
+                    "uuid": "cd1125c4-e114-49c1-ab24-9131ccb9bb1a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW56 on F.Silkscreen",
+                    "pos": {
+                        "x": 269.2625,
+                        "y": 161.5375
+                    },
+                    "uuid": "00233b32-ea6f-467b-8a93-a379590162a1"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 278.9025,
+                        "y": 135.5405
+                    },
+                    "uuid": "813f3f54-e9d3-43b3-9b71-c841ebbb20bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 278.9025,
+                        "y": 137.6085
+                    },
+                    "uuid": "13610cd9-a355-4cab-bd9f-28cc5a17fb78"
+                },
+                {
+                    "description": "Segment of SW56 on F.Silkscreen",
+                    "pos": {
+                        "x": 283.4625,
+                        "y": 147.3375
+                    },
+                    "uuid": "775abce8-20c1-4da4-b959-ab756d754163"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW56 on F.Silkscreen",
+                    "pos": {
+                        "x": 283.4625,
+                        "y": 147.3375
+                    },
+                    "uuid": "775abce8-20c1-4da4-b959-ab756d754163"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 278.9025,
+                        "y": 135.5405
+                    },
+                    "uuid": "813f3f54-e9d3-43b3-9b71-c841ebbb20bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW56 on F.Silkscreen",
+                    "pos": {
+                        "x": 283.4625,
+                        "y": 161.5375
+                    },
+                    "uuid": "3b9968cc-1de7-4c9f-a464-62f457c54922"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 278.9025,
+                        "y": 135.5405
+                    },
+                    "uuid": "813f3f54-e9d3-43b3-9b71-c841ebbb20bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW41 on F.Silkscreen",
+                    "pos": {
+                        "x": 278.7,
+                        "y": 128.2875
+                    },
+                    "uuid": "0d0bd5d0-a6cd-471e-8cae-f6518cb1e9bb"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 274.14,
+                        "y": 134.829999
+                    },
+                    "uuid": "f5c271dc-dfe0-4746-8e29-bcc87f66168b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW41 on F.Silkscreen",
+                    "pos": {
+                        "x": 278.7,
+                        "y": 142.4875
+                    },
+                    "uuid": "10593472-0aed-43bc-94ad-d7f5b53d6b3d"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 274.14,
+                        "y": 134.829999
+                    },
+                    "uuid": "f5c271dc-dfe0-4746-8e29-bcc87f66168b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW41 on F.Silkscreen",
+                    "pos": {
+                        "x": 278.7,
+                        "y": 142.4875
+                    },
+                    "uuid": "10593472-0aed-43bc-94ad-d7f5b53d6b3d"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 278.9025,
+                        "y": 137.6085
+                    },
+                    "uuid": "13610cd9-a355-4cab-bd9f-28cc5a17fb78"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 278.9025,
+                        "y": 137.6085
+                    },
+                    "uuid": "13610cd9-a355-4cab-bd9f-28cc5a17fb78"
+                },
+                {
+                    "description": "Segment of SW41 on F.Silkscreen",
+                    "pos": {
+                        "x": 264.5,
+                        "y": 142.4875
+                    },
+                    "uuid": "eefca389-2450-400b-84d0-1a0896679ec8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW41 on F.Silkscreen",
+                    "pos": {
+                        "x": 278.7,
+                        "y": 128.2875
+                    },
+                    "uuid": "0d0bd5d0-a6cd-471e-8cae-f6518cb1e9bb"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 265.7495,
+                        "y": 133.4665
+                    },
+                    "uuid": "e9ce3b51-62f6-443b-8d0a-a71065d6d20e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW43 on F.Silkscreen",
+                    "pos": {
+                        "x": 307.3625,
+                        "y": 142.4875
+                    },
+                    "uuid": "149f6584-fc96-4bb6-bd4c-3eab3146d994"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 309.859,
+                        "y": 140.364
+                    },
+                    "uuid": "f10aa565-a931-47c0-8331-8f97ca32b2cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW43 on F.Silkscreen",
+                    "pos": {
+                        "x": 321.5625,
+                        "y": 128.2875
+                    },
+                    "uuid": "00c305ec-0382-41a1-9aee-3d88e4f93378"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 309.859,
+                        "y": 140.364
+                    },
+                    "uuid": "f10aa565-a931-47c0-8331-8f97ca32b2cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW42 on F.Silkscreen",
+                    "pos": {
+                        "x": 283.55,
+                        "y": 142.4875
+                    },
+                    "uuid": "1c7838ca-5e50-40b1-9305-ee843324503b"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 309.859,
+                        "y": 140.364
+                    },
+                    "uuid": "f10aa565-a931-47c0-8331-8f97ca32b2cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW42 on F.Silkscreen",
+                    "pos": {
+                        "x": 297.75,
+                        "y": 128.2875
+                    },
+                    "uuid": "e7bc3f80-7cb0-4a78-90e5-3a6221f92559"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 309.859,
+                        "y": 140.364
+                    },
+                    "uuid": "f10aa565-a931-47c0-8331-8f97ca32b2cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW42 on F.Silkscreen",
+                    "pos": {
+                        "x": 297.75,
+                        "y": 142.4875
+                    },
+                    "uuid": "3219701b-495a-4269-9f6e-b36a6ed6ec6b"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 309.859,
+                        "y": 140.364
+                    },
+                    "uuid": "f10aa565-a931-47c0-8331-8f97ca32b2cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 309.859,
+                        "y": 140.364
+                    },
+                    "uuid": "f10aa565-a931-47c0-8331-8f97ca32b2cc"
+                },
+                {
+                    "description": "Segment of SW57 on F.Silkscreen",
+                    "pos": {
+                        "x": 300.21875,
+                        "y": 147.3375
+                    },
+                    "uuid": "f861a14f-e055-40b5-b032-867b6b803ef6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW57 on F.Silkscreen",
+                    "pos": {
+                        "x": 314.41875,
+                        "y": 147.3375
+                    },
+                    "uuid": "eb0dd2f0-b71a-44aa-9af8-b8e82ba5c8e3"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 309.859,
+                        "y": 140.364
+                    },
+                    "uuid": "f10aa565-a931-47c0-8331-8f97ca32b2cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW42 on F.Silkscreen",
+                    "pos": {
+                        "x": 283.55,
+                        "y": 128.2875
+                    },
+                    "uuid": "20268f78-0cfd-4864-9f78-a78eb4a33e7f"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 278.9025,
+                        "y": 135.5405
+                    },
+                    "uuid": "813f3f54-e9d3-43b3-9b71-c841ebbb20bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW42 on F.Silkscreen",
+                    "pos": {
+                        "x": 283.55,
+                        "y": 142.4875
+                    },
+                    "uuid": "1c7838ca-5e50-40b1-9305-ee843324503b"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 278.9025,
+                        "y": 135.5405
+                    },
+                    "uuid": "813f3f54-e9d3-43b3-9b71-c841ebbb20bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 278.9025,
+                        "y": 135.5405
+                    },
+                    "uuid": "813f3f54-e9d3-43b3-9b71-c841ebbb20bb"
+                },
+                {
+                    "description": "Segment of SW42 on F.Silkscreen",
+                    "pos": {
+                        "x": 297.75,
+                        "y": 128.2875
+                    },
+                    "uuid": "e7bc3f80-7cb0-4a78-90e5-3a6221f92559"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW54 on F.Silkscreen",
+                    "pos": {
+                        "x": 245.3625,
+                        "y": 161.5375
+                    },
+                    "uuid": "ceb0b30c-d9f4-447d-bc28-9daad7f1ada3"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 243.3425,
+                        "y": 162.05
+                    },
+                    "uuid": "cf118cee-fdb3-4d6c-bf78-4c880b89683b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW40 on F.Silkscreen",
+                    "pos": {
+                        "x": 245.45,
+                        "y": 142.4875
+                    },
+                    "uuid": "76fe1357-98d5-4b42-89c9-1cec8cf0c7ae"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 243.3425,
+                        "y": 162.05
+                    },
+                    "uuid": "cf118cee-fdb3-4d6c-bf78-4c880b89683b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW55 on F.Silkscreen",
+                    "pos": {
+                        "x": 250.2125,
+                        "y": 147.3375
+                    },
+                    "uuid": "480ad1b3-058e-4305-9ece-51f8c36f73e3"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 243.3425,
+                        "y": 162.05
+                    },
+                    "uuid": "cf118cee-fdb3-4d6c-bf78-4c880b89683b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 243.3425,
+                        "y": 162.05
+                    },
+                    "uuid": "cf118cee-fdb3-4d6c-bf78-4c880b89683b"
+                },
+                {
+                    "description": "Segment of SW55 on F.Silkscreen",
+                    "pos": {
+                        "x": 250.2125,
+                        "y": 161.5375
+                    },
+                    "uuid": "d0d55ac3-455c-497f-896d-d66523a19402"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW55 on F.Silkscreen",
+                    "pos": {
+                        "x": 264.4125,
+                        "y": 147.3375
+                    },
+                    "uuid": "40f2e5ee-4708-4e52-90b0-915c73ca4c13"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 243.3425,
+                        "y": 162.05
+                    },
+                    "uuid": "cf118cee-fdb3-4d6c-bf78-4c880b89683b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW54 on F.Silkscreen",
+                    "pos": {
+                        "x": 245.3625,
+                        "y": 147.3375
+                    },
+                    "uuid": "94767104-3301-49ed-a7d8-271a086899c7"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 243.3425,
+                        "y": 162.05
+                    },
+                    "uuid": "cf118cee-fdb3-4d6c-bf78-4c880b89683b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW40 on F.Silkscreen",
+                    "pos": {
+                        "x": 245.45,
+                        "y": 128.2875
+                    },
+                    "uuid": "6c161ee6-fea4-4d09-b640-cb390f6e30f5"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 243.3425,
+                        "y": 162.05
+                    },
+                    "uuid": "cf118cee-fdb3-4d6c-bf78-4c880b89683b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 243.3425,
+                        "y": 162.05
+                    },
+                    "uuid": "cf118cee-fdb3-4d6c-bf78-4c880b89683b"
+                },
+                {
+                    "description": "Segment of SW54 on F.Silkscreen",
+                    "pos": {
+                        "x": 231.1625,
+                        "y": 161.5375
+                    },
+                    "uuid": "e194af92-1a7b-4232-a4e8-c4bc1e4433c1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 252.82,
+                        "y": 161.521
+                    },
+                    "uuid": "50bdb7a8-7c2a-4707-b3db-cbbff0d1e328"
+                },
+                {
+                    "description": "Segment of SW40 on F.Silkscreen",
+                    "pos": {
+                        "x": 245.45,
+                        "y": 142.4875
+                    },
+                    "uuid": "76fe1357-98d5-4b42-89c9-1cec8cf0c7ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 252.82,
+                        "y": 161.521
+                    },
+                    "uuid": "50bdb7a8-7c2a-4707-b3db-cbbff0d1e328"
+                },
+                {
+                    "description": "Segment of SW55 on F.Silkscreen",
+                    "pos": {
+                        "x": 250.2125,
+                        "y": 161.5375
+                    },
+                    "uuid": "d0d55ac3-455c-497f-896d-d66523a19402"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW55 on F.Silkscreen",
+                    "pos": {
+                        "x": 264.4125,
+                        "y": 147.3375
+                    },
+                    "uuid": "40f2e5ee-4708-4e52-90b0-915c73ca4c13"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 252.82,
+                        "y": 161.521
+                    },
+                    "uuid": "50bdb7a8-7c2a-4707-b3db-cbbff0d1e328"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 252.82,
+                        "y": 161.521
+                    },
+                    "uuid": "50bdb7a8-7c2a-4707-b3db-cbbff0d1e328"
+                },
+                {
+                    "description": "Segment of SW40 on F.Silkscreen",
+                    "pos": {
+                        "x": 259.65,
+                        "y": 142.4875
+                    },
+                    "uuid": "8763cf85-2a70-4532-a1c0-a21c23124fc3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 205.2425,
+                        "y": 161.329
+                    },
+                    "uuid": "367b4806-700d-4bc5-b14d-5c58a5941e5d"
+                },
+                {
+                    "description": "Segment of SW38 on F.Silkscreen",
+                    "pos": {
+                        "x": 207.35,
+                        "y": 128.2875
+                    },
+                    "uuid": "66c9171d-d474-45b4-8eee-98619b25546c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 205.2425,
+                        "y": 161.329
+                    },
+                    "uuid": "367b4806-700d-4bc5-b14d-5c58a5941e5d"
+                },
+                {
+                    "description": "Segment of SW38 on F.Silkscreen",
+                    "pos": {
+                        "x": 207.35,
+                        "y": 142.4875
+                    },
+                    "uuid": "cbadde8e-efa7-480c-83e8-a6dd0f7c6893"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 205.2425,
+                        "y": 161.329
+                    },
+                    "uuid": "367b4806-700d-4bc5-b14d-5c58a5941e5d"
+                },
+                {
+                    "description": "Segment of SW53 on F.Silkscreen",
+                    "pos": {
+                        "x": 226.3125,
+                        "y": 147.3375
+                    },
+                    "uuid": "48272f7a-aeff-410a-9f28-8a01f5701a95"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 205.2425,
+                        "y": 161.329
+                    },
+                    "uuid": "367b4806-700d-4bc5-b14d-5c58a5941e5d"
+                },
+                {
+                    "description": "Segment of SW52 on F.Silkscreen",
+                    "pos": {
+                        "x": 207.2625,
+                        "y": 161.5375
+                    },
+                    "uuid": "e630e003-2547-4244-8b5a-3e85f13c18e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW53 on F.Silkscreen",
+                    "pos": {
+                        "x": 212.1125,
+                        "y": 147.3375
+                    },
+                    "uuid": "01527231-5813-4df1-9cd4-4d472d235c67"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 205.2425,
+                        "y": 161.329
+                    },
+                    "uuid": "367b4806-700d-4bc5-b14d-5c58a5941e5d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 205.2425,
+                        "y": 161.329
+                    },
+                    "uuid": "367b4806-700d-4bc5-b14d-5c58a5941e5d"
+                },
+                {
+                    "description": "Segment of SW52 on F.Silkscreen",
+                    "pos": {
+                        "x": 207.2625,
+                        "y": 147.3375
+                    },
+                    "uuid": "9f28bdae-766e-4292-af1d-6ffa466d40f1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW53 on F.Silkscreen",
+                    "pos": {
+                        "x": 212.1125,
+                        "y": 161.5375
+                    },
+                    "uuid": "204c83a1-ce87-4b59-b4d2-3a07a7fbd061"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 221.7525,
+                        "y": 153.88
+                    },
+                    "uuid": "ceae2e84-1f96-4bee-98f3-53608d003db5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW53 on F.Silkscreen",
+                    "pos": {
+                        "x": 226.3125,
+                        "y": 147.3375
+                    },
+                    "uuid": "48272f7a-aeff-410a-9f28-8a01f5701a95"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 221.7525,
+                        "y": 153.88
+                    },
+                    "uuid": "ceae2e84-1f96-4bee-98f3-53608d003db5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW38 on F.Silkscreen",
+                    "pos": {
+                        "x": 207.35,
+                        "y": 142.4875
+                    },
+                    "uuid": "cbadde8e-efa7-480c-83e8-a6dd0f7c6893"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 217.5245,
+                        "y": 152.106499
+                    },
+                    "uuid": "f4825e61-d4aa-4989-bbf3-a6df0575b4d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW53 on F.Silkscreen",
+                    "pos": {
+                        "x": 212.1125,
+                        "y": 161.5375
+                    },
+                    "uuid": "204c83a1-ce87-4b59-b4d2-3a07a7fbd061"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 224.2925,
+                        "y": 161.521
+                    },
+                    "uuid": "87a1b007-76ea-435f-811a-13e9fe18bb0f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW53 on F.Silkscreen",
+                    "pos": {
+                        "x": 212.1125,
+                        "y": 161.5375
+                    },
+                    "uuid": "204c83a1-ce87-4b59-b4d2-3a07a7fbd061"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 221.7525,
+                        "y": 154.995
+                    },
+                    "uuid": "c7fa745a-ba40-4e8d-9a6f-3a1a586c7260"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW53 on F.Silkscreen",
+                    "pos": {
+                        "x": 226.3125,
+                        "y": 147.3375
+                    },
+                    "uuid": "48272f7a-aeff-410a-9f28-8a01f5701a95"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 224.2925,
+                        "y": 161.521
+                    },
+                    "uuid": "87a1b007-76ea-435f-811a-13e9fe18bb0f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW53 on F.Silkscreen",
+                    "pos": {
+                        "x": 226.3125,
+                        "y": 147.3375
+                    },
+                    "uuid": "48272f7a-aeff-410a-9f28-8a01f5701a95"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 217.5245,
+                        "y": 152.106499
+                    },
+                    "uuid": "f4825e61-d4aa-4989-bbf3-a6df0575b4d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW39 on F.Silkscreen",
+                    "pos": {
+                        "x": 226.4,
+                        "y": 142.4875
+                    },
+                    "uuid": "3181a5de-3748-4017-99da-e8d48f0619f3"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 224.2925,
+                        "y": 161.521
+                    },
+                    "uuid": "87a1b007-76ea-435f-811a-13e9fe18bb0f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 224.2925,
+                        "y": 161.521
+                    },
+                    "uuid": "87a1b007-76ea-435f-811a-13e9fe18bb0f"
+                },
+                {
+                    "description": "Segment of SW53 on F.Silkscreen",
+                    "pos": {
+                        "x": 226.3125,
+                        "y": 161.5375
+                    },
+                    "uuid": "c0b738db-7f05-4c00-ae61-c05009e9645c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 224.2925,
+                        "y": 161.521
+                    },
+                    "uuid": "87a1b007-76ea-435f-811a-13e9fe18bb0f"
+                },
+                {
+                    "description": "Segment of SW39 on F.Silkscreen",
+                    "pos": {
+                        "x": 226.4,
+                        "y": 128.2875
+                    },
+                    "uuid": "8ef35fcb-c572-425b-9ec0-eda47e370391"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 241.3665,
+                        "y": 161.603999
+                    },
+                    "uuid": "7abb63e4-ede0-4c7a-ad10-5d6cf60491ad"
+                },
+                {
+                    "description": "Segment of SW54 on F.Silkscreen",
+                    "pos": {
+                        "x": 245.3625,
+                        "y": 147.3375
+                    },
+                    "uuid": "94767104-3301-49ed-a7d8-271a086899c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 243.3425,
+                        "y": 137.523
+                    },
+                    "uuid": "1031f3cf-e8c4-4d2d-888a-d79b920773e5"
+                },
+                {
+                    "description": "Segment of SW39 on F.Silkscreen",
+                    "pos": {
+                        "x": 226.4,
+                        "y": 142.4875
+                    },
+                    "uuid": "3181a5de-3748-4017-99da-e8d48f0619f3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW38 on F.Silkscreen",
+                    "pos": {
+                        "x": 221.55,
+                        "y": 142.4875
+                    },
+                    "uuid": "4077e049-aca2-49a8-baa8-4b9fbc2f8f3e"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 217.5245,
+                        "y": 152.106499
+                    },
+                    "uuid": "f4825e61-d4aa-4989-bbf3-a6df0575b4d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 243.3425,
+                        "y": 137.523
+                    },
+                    "uuid": "1031f3cf-e8c4-4d2d-888a-d79b920773e5"
+                },
+                {
+                    "description": "Segment of SW39 on F.Silkscreen",
+                    "pos": {
+                        "x": 240.6,
+                        "y": 142.4875
+                    },
+                    "uuid": "89852c9a-ff4d-4c7a-b8ad-c711177fedc4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 241.3665,
+                        "y": 161.603999
+                    },
+                    "uuid": "7abb63e4-ede0-4c7a-ad10-5d6cf60491ad"
+                },
+                {
+                    "description": "Segment of SW54 on F.Silkscreen",
+                    "pos": {
+                        "x": 231.1625,
+                        "y": 161.5375
+                    },
+                    "uuid": "e194af92-1a7b-4232-a4e8-c4bc1e4433c1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 296.6915,
+                        "y": 159.570499
+                    },
+                    "uuid": "77bba5dc-9ab7-4060-be7a-9ae1ab57c7d8"
+                },
+                {
+                    "description": "Segment of SW57 on F.Silkscreen",
+                    "pos": {
+                        "x": 300.21875,
+                        "y": 147.3375
+                    },
+                    "uuid": "f861a14f-e055-40b5-b032-867b6b803ef6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW57 on F.Silkscreen",
+                    "pos": {
+                        "x": 300.21875,
+                        "y": 161.5375
+                    },
+                    "uuid": "2d24c400-1787-444f-9525-43e4ff53d569"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 296.6915,
+                        "y": 159.570499
+                    },
+                    "uuid": "77bba5dc-9ab7-4060-be7a-9ae1ab57c7d8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 199.568,
+                        "y": 162.1075
+                    },
+                    "uuid": "5809f0b7-2f97-48cf-be30-d9469877d933"
+                },
+                {
+                    "description": "Segment of SW52 on F.Silkscreen",
+                    "pos": {
+                        "x": 193.0625,
+                        "y": 161.5375
+                    },
+                    "uuid": "c9883caa-50b6-4902-9ae0-53c5597d2e91"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 199.568,
+                        "y": 162.1075
+                    },
+                    "uuid": "5809f0b7-2f97-48cf-be30-d9469877d933"
+                },
+                {
+                    "description": "Segment of SW52 on F.Silkscreen",
+                    "pos": {
+                        "x": 207.2625,
+                        "y": 147.3375
+                    },
+                    "uuid": "9f28bdae-766e-4292-af1d-6ffa466d40f1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 199.568,
+                        "y": 162.1075
+                    },
+                    "uuid": "5809f0b7-2f97-48cf-be30-d9469877d933"
+                },
+                {
+                    "description": "Segment of SW37 on F.Silkscreen",
+                    "pos": {
+                        "x": 188.3,
+                        "y": 142.4875
+                    },
+                    "uuid": "858e0d62-0240-40b8-951d-eb26e13525ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 199.568,
+                        "y": 162.1075
+                    },
+                    "uuid": "5809f0b7-2f97-48cf-be30-d9469877d933"
+                },
+                {
+                    "description": "Segment of SW37 on F.Silkscreen",
+                    "pos": {
+                        "x": 202.5,
+                        "y": 142.4875
+                    },
+                    "uuid": "5b19ef52-b16b-473c-a034-2aedd457dcbf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW52 on F.Silkscreen",
+                    "pos": {
+                        "x": 193.0625,
+                        "y": 161.5375
+                    },
+                    "uuid": "c9883caa-50b6-4902-9ae0-53c5597d2e91"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 185.9865,
+                        "y": 152.1415
+                    },
+                    "uuid": "eceb9dab-f272-4648-a586-919e0c234630"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW52 on F.Silkscreen",
+                    "pos": {
+                        "x": 207.2625,
+                        "y": 147.3375
+                    },
+                    "uuid": "9f28bdae-766e-4292-af1d-6ffa466d40f1"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 185.9865,
+                        "y": 152.1415
+                    },
+                    "uuid": "eceb9dab-f272-4648-a586-919e0c234630"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW37 on F.Silkscreen",
+                    "pos": {
+                        "x": 188.3,
+                        "y": 142.4875
+                    },
+                    "uuid": "858e0d62-0240-40b8-951d-eb26e13525ef"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 185.9865,
+                        "y": 152.1415
+                    },
+                    "uuid": "eceb9dab-f272-4648-a586-919e0c234630"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW52 on F.Silkscreen",
+                    "pos": {
+                        "x": 193.0625,
+                        "y": 147.3375
+                    },
+                    "uuid": "19ff21a2-b37e-4eb6-ba22-097945ed1b91"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 185.9865,
+                        "y": 152.1415
+                    },
+                    "uuid": "eceb9dab-f272-4648-a586-919e0c234630"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW51 on F.Silkscreen",
+                    "pos": {
+                        "x": 188.2125,
+                        "y": 161.5375
+                    },
+                    "uuid": "5bbd76bb-6724-4d14-bb4c-d80e2794fbb1"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 185.9865,
+                        "y": 152.1415
+                    },
+                    "uuid": "eceb9dab-f272-4648-a586-919e0c234630"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW37 on F.Silkscreen",
+                    "pos": {
+                        "x": 188.3,
+                        "y": 128.2875
+                    },
+                    "uuid": "469dd57e-5abe-4086-b152-22383cfae583"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 185.9865,
+                        "y": 152.1415
+                    },
+                    "uuid": "eceb9dab-f272-4648-a586-919e0c234630"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of SW51 on F.Silkscreen",
+                    "pos": {
+                        "x": 188.2125,
+                        "y": 147.3375
+                    },
+                    "uuid": "08f93a0a-a657-480a-ba25-1293144629c5"
+                },
+                {
+                    "description": "Polygon on F.Silkscreen",
+                    "pos": {
+                        "x": 185.9865,
+                        "y": 152.1415
+                    },
+                    "uuid": "eceb9dab-f272-4648-a586-919e0c234630"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}

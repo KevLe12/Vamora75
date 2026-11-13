@@ -1,0 +1,25 @@
+{
+  "result": "PASS",
+  "custom_keys_matched": 82,
+  "reference_sha256": "91fa621133e6857880d6c1da53255b1bafb88856260aaa35ec794f40e32e6c49",
+  "pcb_mm": [
+    315.5625,
+    129.825
+  ],
+  "usb_rear_left_x_mm": 25.0,
+  "controller_position_mm": [
+    40.0,
+    23.0
+  ],
+  "usb_aggregate_copper_length_mm": {
+    "plus": 29.676382300264628,
+    "minus": 33.53084647160214
+  },
+  "copper_layers": [
+    "F.Cu",
+    "In1.Cu",
+    "In2.Cu",
+    "B.Cu"
+  ],
+  "impedance": "JLC04161H-7628, 90 ohm differential +/-10%; calculator geometry checked, supplier coupon and prototype checks required"
+}

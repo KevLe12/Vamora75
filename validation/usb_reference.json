@@ -1,0 +1,13 @@
+{
+  "result": "PASS",
+  "layers": 4,
+  "track_counts": {
+    "F.Cu": 357,
+    "B.Cu": 1118,
+    "In1.Cu": 192
+  },
+  "reference_layer": "In2.Cu",
+  "reference_window_missing_mm2": 0.0,
+  "reference_margin_beyond_trace_edge_mm": 0.2,
+  "scope": "Uniform coupled section only; short connector/resistor pad escapes are discontinuities"
+}
